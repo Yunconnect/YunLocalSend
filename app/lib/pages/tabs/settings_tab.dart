@@ -17,6 +17,7 @@ import 'package:yun_lan_transfer/util/i18n.dart';
 import 'package:yun_lan_transfer/util/native/macos_channel.dart';
 import 'package:yun_lan_transfer/util/native/pick_directory_path.dart';
 import 'package:yun_lan_transfer/util/native/platform_check.dart';
+import 'package:yun_lan_transfer/widget/custom_dropdown_button.dart';
 import 'package:yun_lan_transfer/widget/dialogs/encryption_disabled_notice.dart';
 import 'package:yun_lan_transfer/widget/dialogs/pin_dialog.dart';
 import 'package:yun_lan_transfer/widget/dialogs/quick_save_from_favorites_notice.dart';
