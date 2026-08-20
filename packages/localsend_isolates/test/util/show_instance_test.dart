@@ -34,10 +34,10 @@ const _token = 'show-token-3165';
 File _findDylib() {
   final base = '${Directory.current.path}/../../target/debug';
   return [
-    File('$base/librust_lib_localsend_app.dylib'),
-    File('$base/librust_lib_localsend_app.so'),
-    File('$base/rust_lib_localsend_app.dll'),
-  ].firstWhere((f) => f.existsSync(), orElse: () => File('$base/librust_lib_localsend_app.dylib'));
+    File('$base/librust_lib_yunlan_transfer.dylib'),
+    File('$base/librust_lib_yunlan_transfer.so'),
+    File('$base/rust_lib_yunlan_transfer.dll'),
+  ].firstWhere((f) => f.existsSync(), orElse: () => File('$base/librust_lib_yunlan_transfer.dylib'));
 }
 
 /// What the stub server saw of a handover request.
@@ -108,7 +108,7 @@ void main() {
 
   test('hands the arguments to the running instance over TLS', () async {
     if (!_findDylib().existsSync()) {
-      markTestSkipped('Rust dylib not built (cargo build -p rust_lib_localsend_app)');
+      markTestSkipped('Rust dylib not built (cargo build -p rust_lib_yunlan_transfer)');
       return;
     }
     final (server, received) = await startStub();
@@ -143,7 +143,7 @@ void main() {
 
   test('does not exit when the running instance rejects the request', () async {
     if (!_findDylib().existsSync()) {
-      markTestSkipped('Rust dylib not built (cargo build -p rust_lib_localsend_app)');
+      markTestSkipped('Rust dylib not built (cargo build -p rust_lib_yunlan_transfer)');
       return;
     }
     final (server, _) = await startStub();
@@ -164,7 +164,7 @@ void main() {
 
   test('reports no running instance when nothing listens', () async {
     if (!_findDylib().existsSync()) {
-      markTestSkipped('Rust dylib not built (cargo build -p rust_lib_localsend_app)');
+      markTestSkipped('Rust dylib not built (cargo build -p rust_lib_yunlan_transfer)');
       return;
     }
     // Bind and immediately release a port so that nothing answers on it.

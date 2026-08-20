@@ -8,7 +8,7 @@
 //
 // Loads the real Rust dylib and replicates the event loop of
 // `server_isolate.dart` without isolates. Skipped when the dylib is missing;
-// build it with `cargo build -p rust_lib_localsend_app` from the repo root.
+// build it with `cargo build -p rust_lib_yunlan_transfer` from the repo root.
 @Timeout(Duration(minutes: 2))
 library;
 
@@ -34,9 +34,9 @@ class _ReceiveSession {
 
 void main() {
   test('new session works after receiver-side cancel during transfer', () async {
-    final dylib = File('${Directory.current.path}/../../target/debug/librust_lib_localsend_app.dylib');
+    final dylib = File('${Directory.current.path}/../../target/debug/librust_lib_yunlan_transfer.dylib');
     if (!dylib.existsSync()) {
-      markTestSkipped('Rust dylib not built (cargo build -p rust_lib_localsend_app)');
+      markTestSkipped('Rust dylib not built (cargo build -p rust_lib_yunlan_transfer)');
       return;
     }
     await RustLib.init(externalLibrary: ExternalLibrary.open(dylib.path));
