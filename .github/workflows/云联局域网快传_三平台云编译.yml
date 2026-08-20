@@ -138,7 +138,7 @@ jobs:
         working-directory: app
         run: |
           cd build/linux/x64/release/bundle
-          tar -czf ../../../../云联局域网快传_V1.0_Linux_x64.tar.gz .
+          tar -czf ../../../../../云联局域网快传_V1.0_Linux_x64.tar.gz .
 
       - name: 上传 Linux 发布包
         uses: actions/upload-artifact@v6
