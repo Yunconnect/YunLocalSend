@@ -8,15 +8,9 @@ class YunLanTransferLogo extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    final logo = ColorFiltered(
-      colorFilter: ColorFilter.mode(
-        Theme.of(context).colorScheme.primary,
-        BlendMode.srcATop,
-      ),
-      child: Assets.img.logo512.image(
-        width: 200,
-        height: 200,
-      ),
+    final logo = Assets.img.logo512.image(
+      width: 200,
+      height: 200,
     );
 
     if (withText) {
@@ -24,14 +18,14 @@ class YunLanTransferLogo extends StatelessWidget {
         children: [
           logo,
           const Text(
-            '云联局域网快传 V1.0',
+            '云联局域网快传',
             style: TextStyle(fontSize: 36, fontWeight: FontWeight.bold),
             textAlign: TextAlign.center,
           ),
         ],
       );
-    } else {
-      return logo;
     }
+
+    return logo;
   }
 }

@@ -56,14 +56,14 @@ class _ErrorAppState extends State<_ErrorApp> {
     _controller.text = 'Error: ${widget.error}\n\n${widget.stackTrace}';
     WidgetsBinding.instance.addPostFrameCallback((_) async {
       final info = await PackageInfo.fromPlatform();
-      _controller.text = '云联局域网快传 V1.0 ${info.version} (${info.buildNumber})\n\nError: ${widget.error}\n\n${widget.stackTrace}';
+      _controller.text = '云联局域网快传 ${info.version} (${info.buildNumber})\n\nError: ${widget.error}\n\n${widget.stackTrace}';
     });
   }
 
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: '云联局域网快传 V1.0：错误',
+      title: '云联局域网快传：错误',
       debugShowCheckedModeBanner: false,
       home: Scaffold(
         body: TextFormField(
