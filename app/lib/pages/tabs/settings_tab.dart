@@ -2,33 +2,32 @@ import 'dart:io';
 
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
-import 'package:localsend_app/config/theme.dart';
-import 'package:localsend_app/gen/strings.g.dart';
-import 'package:localsend_app/model/persistence/color_mode.dart';
-import 'package:localsend_app/pages/about/about_page.dart';
-import 'package:localsend_app/pages/changelog_page.dart';
-import 'package:localsend_app/pages/donation/donation_page.dart';
-import 'package:localsend_app/pages/settings/network_interfaces_page.dart';
-import 'package:localsend_app/pages/tabs/settings_tab_controller.dart';
-import 'package:localsend_app/provider/network/server/server_provider.dart';
-import 'package:localsend_app/provider/settings_provider.dart';
-import 'package:localsend_app/provider/version_provider.dart';
-import 'package:localsend_app/util/alias_generator.dart';
-import 'package:localsend_app/util/device_type_ext.dart';
-import 'package:localsend_app/util/i18n.dart';
-import 'package:localsend_app/util/native/macos_channel.dart';
-import 'package:localsend_app/util/native/pick_directory_path.dart';
-import 'package:localsend_app/util/native/platform_check.dart';
-import 'package:localsend_app/widget/custom_dropdown_button.dart';
-import 'package:localsend_app/widget/dialogs/encryption_disabled_notice.dart';
-import 'package:localsend_app/widget/dialogs/pin_dialog.dart';
-import 'package:localsend_app/widget/dialogs/quick_save_from_favorites_notice.dart';
-import 'package:localsend_app/widget/dialogs/quick_save_notice.dart';
-import 'package:localsend_app/widget/dialogs/text_field_tv.dart';
-import 'package:localsend_app/widget/dialogs/text_field_with_actions.dart';
-import 'package:localsend_app/widget/labeled_checkbox.dart';
-import 'package:localsend_app/widget/local_send_logo.dart';
-import 'package:localsend_app/widget/responsive_list_view.dart';
+import 'package:yun_lan_transfer/config/theme.dart';
+import 'package:yun_lan_transfer/gen/strings.g.dart';
+import 'package:yun_lan_transfer/model/persistence/color_mode.dart';
+import 'package:yun_lan_transfer/pages/about/about_page.dart';
+import 'package:yun_lan_transfer/pages/changelog_page.dart';
+import 'package:yun_lan_transfer/pages/settings/network_interfaces_page.dart';
+import 'package:yun_lan_transfer/pages/tabs/settings_tab_controller.dart';
+import 'package:yun_lan_transfer/provider/network/server/server_provider.dart';
+import 'package:yun_lan_transfer/provider/settings_provider.dart';
+import 'package:yun_lan_transfer/provider/version_provider.dart';
+import 'package:yun_lan_transfer/util/alias_generator.dart';
+import 'package:yun_lan_transfer/util/device_type_ext.dart';
+import 'package:yun_lan_transfer/util/i18n.dart';
+import 'package:yun_lan_transfer/util/native/macos_channel.dart';
+import 'package:yun_lan_transfer/util/native/pick_directory_path.dart';
+import 'package:yun_lan_transfer/util/native/platform_check.dart';
+import 'package:yun_lan_transfer/widget/custom_dropdown_button.dart';
+import 'package:yun_lan_transfer/widget/dialogs/encryption_disabled_notice.dart';
+import 'package:yun_lan_transfer/widget/dialogs/pin_dialog.dart';
+import 'package:yun_lan_transfer/widget/dialogs/quick_save_from_favorites_notice.dart';
+import 'package:yun_lan_transfer/widget/dialogs/quick_save_notice.dart';
+import 'package:yun_lan_transfer/widget/dialogs/text_field_tv.dart';
+import 'package:yun_lan_transfer/widget/dialogs/text_field_with_actions.dart';
+import 'package:yun_lan_transfer/widget/labeled_checkbox.dart';
+import 'package:yun_lan_transfer/widget/local_send_logo.dart';
+import 'package:yun_lan_transfer/widget/responsive_list_view.dart';
 import 'package:localsend_isolates/constants.dart';
 import 'package:localsend_isolates/model/device.dart';
 import 'package:refena_flutter/refena_flutter.dart';
@@ -528,23 +527,6 @@ class SettingsTab extends StatelessWidget {
                     await context.push(() => const AboutPage());
                   },
                 ),
-                _ButtonEntry(
-                  label: t.settingsTab.other.support,
-                  buttonLabel: t.settingsTab.other.donate,
-                  onTap: () async {
-                    await context.push(() => const DonationPage());
-                  },
-                ),
-                _ButtonEntry(
-                  label: t.settingsTab.other.privacyPolicy,
-                  buttonLabel: t.general.open,
-                  onTap: () async {
-                    await launchUrl(
-                      Uri.parse('https://localsend.org/privacy'),
-                      mode: LaunchMode.externalApplication,
-                    );
-                  },
-                ),
                 if (checkPlatform([TargetPlatform.iOS, TargetPlatform.macOS]))
                   _ButtonEntry(
                     label: t.settingsTab.other.termsOfUse,
@@ -574,7 +556,7 @@ class SettingsTab extends StatelessWidget {
               ],
             ),
             const SizedBox(height: 20),
-            const LocalSendLogo(withText: true),
+            const YunLanTransferLogo(withText: true),
             const SizedBox(height: 5),
             ref
                 .watch(versionProvider)
@@ -586,7 +568,7 @@ class SettingsTab extends StatelessWidget {
                   orElse: () => Container(),
                 ),
             Text(
-              '© ${DateTime.now().year} Tien Do Nam',
+              '© ${DateTime.now().year} 云联软件科技',
               textAlign: TextAlign.center,
             ),
             Center(

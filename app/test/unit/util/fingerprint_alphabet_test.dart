@@ -1,6 +1,6 @@
 import 'dart:math';
 
-import 'package:localsend_app/util/fingerprint_alphabet.dart';
+import 'package:yun_lan_transfer/util/fingerprint_alphabet.dart';
 import 'package:test/test.dart';
 
 void main() {

@@ -1,0 +1,148 @@
+name: 云联局域网快传 V1.0 - 三平台云编译
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+env:
+  FLUTTER_VERSION: "3.41.9"
+
+jobs:
+  windows:
+    name: Windows 便携版
+    runs-on: windows-latest
+    steps:
+      - name: 启用长路径支持
+        run: git config --system core.longpaths true
+
+      - name: 获取源码
+        uses: actions/checkout@v6
+
+      - name: 安装 Flutter
+        uses: subosito/flutter-action@v2
+        with:
+          flutter-version: ${{ env.FLUTTER_VERSION }}
+          channel: stable
+
+      - name: 安装 Rust
+        uses: dtolnay/rust-toolchain@stable
+
+      - name: 生成 Windows 系统集成辅助包
+        shell: pwsh
+        run: |
+          $makepri = Get-ChildItem 'C:\Program Files (x86)\Windows Kits\10\bin\10.*\x64\makepri.exe' | Select-Object -Last 1
+          & $makepri.FullName new /pr support\build\msix\content /cf support\build\msix\priconfig.xml /mn support\build\msix\content\AppxManifest.xml /of support\build\msix\content\resources.pri /o
+          & 'C:\Program Files (x86)\Windows Kits\10\App Certification Kit\makeappx.exe' pack /o /d support\build\msix\content /nv /p app\windows\YunLanTransfer_msix_helper.msix
+
+      - name: 获取依赖
+        working-directory: app
+        run: flutter pub get
+
+      - name: 编译 Windows Release
+        working-directory: app
+        run: flutter build windows --release
+
+      - name: 准备 Windows 便携包
+        shell: pwsh
+        working-directory: app
+        run: |
+          $release = 'build\windows\x64\runner\Release'
+          Set-Content -Path "$release\settings.json" -Value '{}'
+          Copy-Item ..\support\build\windows\x64\msvcp140.dll $release
+          Copy-Item ..\support\build\windows\x64\vcruntime140.dll $release
+          Copy-Item ..\support\build\windows\x64\vcruntime140_1.dll $release
+          Remove-Item "$release\YunLanTransfer_msix_helper.msix" -ErrorAction SilentlyContinue
+          Remove-Item "$release\install_YunLanTransfer_msix_helper.ps1" -ErrorAction SilentlyContinue
+          Remove-Item "$release\YunLanTransfer.exe.manifest" -ErrorAction SilentlyContinue
+          Compress-Archive -Path "$release\*" -DestinationPath '云联局域网快传_V1.0_Windows_x64.zip'
+
+      - name: 上传 Windows 便携版
+        uses: actions/upload-artifact@v6
+        with:
+          name: 云联局域网快传_V1.0_Windows_x64
+          path: app/云联局域网快传_V1.0_Windows_x64.zip
+          if-no-files-found: error
+
+  android:
+    name: Android APK
+    runs-on: ubuntu-24.04
+    steps:
+      - name: 获取源码
+        uses: actions/checkout@v6
+
+      - name: 安装 JDK 17
+        uses: actions/setup-java@v5
+        with:
+          distribution: temurin
+          java-version: "17"
+
+      - name: 安装 Flutter
+        uses: subosito/flutter-action@v2
+        with:
+          flutter-version: ${{ env.FLUTTER_VERSION }}
+          channel: stable
+
+      - name: 安装 Rust
+        uses: dtolnay/rust-toolchain@stable
+
+      - name: 获取依赖
+        working-directory: app
+        run: flutter pub get
+
+      - name: 编译 Android Release APK
+        working-directory: app
+        run: flutter build apk --release --split-per-abi
+
+      - name: 上传 Android APK
+        uses: actions/upload-artifact@v6
+        with:
+          name: 云联局域网快传_V1.0_Android_APK
+          path: |
+            app/build/app/outputs/flutter-apk/app-armeabi-v7a-release.apk
+            app/build/app/outputs/flutter-apk/app-arm64-v8a-release.apk
+            app/build/app/outputs/flutter-apk/app-x86_64-release.apk
+          if-no-files-found: error
+
+  linux:
+    name: Linux x64 发布包
+    runs-on: ubuntu-24.04
+    steps:
+      - name: 获取源码
+        uses: actions/checkout@v6
+
+      - name: 安装 Linux 编译依赖
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y clang cmake ninja-build pkg-config libgtk-3-dev libayatana-appindicator3-dev lld
+
+      - name: 安装 Flutter
+        uses: subosito/flutter-action@v2
+        with:
+          flutter-version: ${{ env.FLUTTER_VERSION }}
+          channel: stable
+
+      - name: 安装 Rust
+        uses: dtolnay/rust-toolchain@stable
+
+      - name: 获取依赖
+        working-directory: app
+        run: flutter pub get
+
+      - name: 编译 Linux Release
+        working-directory: app
+        run: flutter build linux --release
+
+      - name: 打包 Linux x64 版本
+        working-directory: app
+        run: |
+          cd build/linux/x64/release/bundle
+          tar -czf ../../../../云联局域网快传_V1.0_Linux_x64.tar.gz .
+
+      - name: 上传 Linux 发布包
+        uses: actions/upload-artifact@v6
+        with:
+          name: 云联局域网快传_V1.0_Linux_x64
+          path: app/云联局域网快传_V1.0_Linux_x64.tar.gz
+          if-no-files-found: error

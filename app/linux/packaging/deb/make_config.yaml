@@ -1,5 +1,5 @@
-display_name: LocalSend
-package_name: localsend
+display_name: 云联局域网快传 V1.0
+package_name: yun-local-send
 maintainer:
   name: Tienisto
   email: dev.tien.donam@gmail.com
@@ -22,7 +22,7 @@ dependencies:
   - xdg-user-dirs
 
 postinstall_scripts:
-  - echo "Installed Localsend successfully"
+  - echo "Installed 云联局域网快传 V1.0 successfully"
 postuninstall_scripts:
   - echo "Sorry to see you go :("
 
@@ -31,7 +31,7 @@ keywords:
   - LAN
   - Files
 
-generic_name: An open source cross-platform alternative to AirDrop
+generic_name: Secure local network file transfer
 
 categories:
   - GTK

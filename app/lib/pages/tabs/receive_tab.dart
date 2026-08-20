@@ -1,20 +1,20 @@
 import 'package:flutter/material.dart';
-import 'package:localsend_app/gen/strings.g.dart';
-import 'package:localsend_app/model/state/server/server_state.dart';
-import 'package:localsend_app/pages/home_page.dart';
-import 'package:localsend_app/pages/home_page_controller.dart';
-import 'package:localsend_app/pages/receive_history_page.dart';
-import 'package:localsend_app/pages/web_share_page.dart';
-import 'package:localsend_app/provider/animation_provider.dart';
-import 'package:localsend_app/provider/local_ip_provider.dart';
-import 'package:localsend_app/provider/network/server/server_provider.dart';
-import 'package:localsend_app/provider/settings_provider.dart';
-import 'package:localsend_app/widget/animations/initial_fade_transition.dart';
-import 'package:localsend_app/widget/column_list_view.dart';
-import 'package:localsend_app/widget/custom_icon_button.dart';
-import 'package:localsend_app/widget/local_send_logo.dart';
-import 'package:localsend_app/widget/responsive_list_view.dart';
-import 'package:localsend_app/widget/rotating_widget.dart';
+import 'package:yun_lan_transfer/gen/strings.g.dart';
+import 'package:yun_lan_transfer/model/state/server/server_state.dart';
+import 'package:yun_lan_transfer/pages/home_page.dart';
+import 'package:yun_lan_transfer/pages/home_page_controller.dart';
+import 'package:yun_lan_transfer/pages/receive_history_page.dart';
+import 'package:yun_lan_transfer/pages/web_share_page.dart';
+import 'package:yun_lan_transfer/provider/animation_provider.dart';
+import 'package:yun_lan_transfer/provider/local_ip_provider.dart';
+import 'package:yun_lan_transfer/provider/network/server/server_provider.dart';
+import 'package:yun_lan_transfer/provider/settings_provider.dart';
+import 'package:yun_lan_transfer/widget/animations/initial_fade_transition.dart';
+import 'package:yun_lan_transfer/widget/column_list_view.dart';
+import 'package:yun_lan_transfer/widget/custom_icon_button.dart';
+import 'package:yun_lan_transfer/widget/local_send_logo.dart';
+import 'package:yun_lan_transfer/widget/responsive_list_view.dart';
+import 'package:yun_lan_transfer/widget/rotating_widget.dart';
 import 'package:localsend_isolates/util/sleep.dart';
 import 'package:refena_flutter/addons.dart';
 import 'package:refena_flutter/refena_flutter.dart';
@@ -80,7 +80,7 @@ class _ReceiveTabState extends State<ReceiveTab> {
                               return RotatingWidget(
                                 duration: const Duration(seconds: 15),
                                 spinning: serverState != null && animations && activeTab == HomeTab.receive,
-                                child: const LocalSendLogo(withText: false),
+                                child: const YunLanTransferLogo(withText: false),
                               );
                             },
                           ),

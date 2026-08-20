@@ -57,7 +57,7 @@ Future<bool> isContextMenuEnabled() async {
   }
 }
 
-const _windowsFileName = 'LocalSend';
+const _windowsFileName = 'YunLanTransfer';
 
 String _getWindowsFilePath(String appName) {
   final appData = Platform.environment['APPDATA'];

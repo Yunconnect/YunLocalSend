@@ -40,7 +40,7 @@ class TranslationsJa extends Translations with BaseTranslations<AppLocale, Trans
 
   // Translations
   @override
-  String get appName => 'LocalSend';
+  String get appName => '云联局域网快传 V1.0';
   @override
   late final _Translations$general$ja general = _Translations$general$ja._(_root);
   @override
@@ -288,7 +288,7 @@ class _Translations$networkInterfacesPage$ja extends Translations$networkInterfa
   @override
   String get title => 'ネットワークインターフェース';
   @override
-  String get info => 'デフォルトでは、LocalSend は利用可能なすべてのネットワークインターフェースを使用します。不要なネットワークを除外するには、ここで設定できます。変更を適用するには、サーバーを再起動する必要があります。';
+  String get info => 'デフォルトでは、云联局域网快传 V1.0 は利用可能なすべてのネットワークインターフェースを使用します。不要なネットワークを除外するには、ここで設定できます。変更を適用するには、サーバーを再起動する必要があります。';
   @override
   String get preview => 'プレビュー';
   @override
@@ -413,7 +413,7 @@ class _Translations$receiveOptionsPage$ja extends Translations$receiveOptionsPag
   @override
   String get destination => _root.settingsTab.receive.destination;
   @override
-  String get appDirectory => '(LocalSend フォルダー)';
+  String get appDirectory => '(云联局域网快传 V1.0 フォルダー)';
   @override
   String get saveToGallery => _root.settingsTab.receive.saveToGallery;
   @override
@@ -492,7 +492,7 @@ class _Translations$webSharePage$ja extends Translations$webSharePage$en {
   @override
   String pinHint({required Object pin}) => 'PINコードは "${pin}" です';
   @override
-  String get encryptionHint => 'LocalSendは自己署名証明書を使用しているため、ブラウザーで証明書を許可する必要があります。';
+  String get encryptionHint => '云联局域网快传 V1.0は自己署名証明書を使用しているため、ブラウザーで証明書を許可する必要があります。';
   @override
   String pendingRequests({required Object n}) => '保留中のリクエスト数: ${n}';
 }
@@ -516,11 +516,10 @@ class _Translations$aboutPage$ja extends Translations$aboutPage$en {
 
   // Translations
   @override
-  String get title => 'LocalSendについて';
+  String get title => '云联局域网快传 V1.0について';
   @override
   List<String> get description => [
-    'LocalSendは無料のオープンソースアプリで、インターネットに接続することなく、ローカルネットワーク経由で近くにあるデバイスとファイルやメッセージを安全に共有することができます。',
-    '本アプリはAndroid、iOS、macOS、Windows、Linuxで利用でき、公式ホームページからダウンロードすることができます。',
+    '云联局域网快传 V1.0は無料のオープンソースアプリで、インターネットに接続することなく、ローカルネットワーク経由で近くにあるデバイスとファイルやメッセージを安全に共有することができます。',
   ];
   @override
   String get author => '制作者';
@@ -542,7 +541,7 @@ class _Translations$donationPage$ja extends Translations$donationPage$en {
   @override
   String get title => '寄付';
   @override
-  String get info => 'LocalSendは無料かつオープンソースで、広告を一切含みません。もしアプリを気に入っていただけたら、寄付で開発を支援することができます。';
+  String get info => '云联局域网快传 V1.0は無料かつオープンソースで、広告を一切含みません。もしアプリを気に入っていただけたら、寄付で開発を支援することができます。';
   @override
   String donate({required Object amount}) => '${amount} 寄付する';
   @override
@@ -658,7 +657,7 @@ class _Translations$tray$ja extends Translations$tray$en {
   @override
   String get open => _root.general.open;
   @override
-  String get close => 'LocalSendを終了';
+  String get close => '云联局域网快传 V1.0を終了';
   @override
   String get closeWindows => '終了';
 }
@@ -868,7 +867,7 @@ class _Translations$settingsTab$general$ja extends Translations$settingsTab$gene
   @override
   String get launchMinimized => '自動起動時: 隠れた状態で開始';
   @override
-  String get showInContextMenu => 'コンテキストメニューにLocalSendを表示';
+  String get showInContextMenu => 'コンテキストメニューに云联局域网快传 V1.0を表示';
   @override
   String get animations => 'アニメーション';
 }
@@ -968,7 +967,7 @@ class _Translations$settingsTab$other$ja extends Translations$settingsTab$other$
   @override
   String get title => 'その他';
   @override
-  String get support => 'LocalSendを支援';
+  String get support => '云联局域网快传 V1.0を支援';
   @override
   String get donate => '寄付';
   @override
@@ -1318,7 +1317,7 @@ class _Translations$dialogs$localNetworkUnauthorized$ja extends Translations$dia
   @override
   String get title => _root.dialogs.noPermission.title;
   @override
-  String get description => 'ローカルネットワークをスキャンする権限がないと、LocalSendは他のデバイスを見つけることができません。設定よりこの権限を付与してください。';
+  String get description => 'ローカルネットワークをスキャンする権限がないと、云联局域网快传 V1.0は他のデバイスを見つけることができません。設定よりこの権限を付与してください。';
   @override
   String get gotoSettings => '設定';
 }
@@ -1460,7 +1459,7 @@ class _Translations$dialogs$sendModeHelp$ja extends Translations$dialogs$sendMod
   @override
   String get multiple => '複数の受信者にファイルを送信します。ファイルの選択は解除されません。';
   @override
-  String get link => 'LocalSendをインストールしていない受信者でも、ブラウザでリンクを開くことで選択したファイルをダウンロードできます。';
+  String get link => '云联局域网快传 V1.0をインストールしていない受信者でも、ブラウザでリンクを開くことで選択したファイルをダウンロードできます。';
 }
 
 // Path: dialogs.zoom

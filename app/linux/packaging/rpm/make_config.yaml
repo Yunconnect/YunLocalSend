@@ -1,9 +1,9 @@
-display_name: LocalSend
+display_name: 云联局域网快传 V1.0
 packager: Tienisto
 packagerEmail: dev.tien.donam@gmail.com
-url: https://localsend.org
+url: https://github.com/Yunconnect/YunLanTransfer
 buildArch: x86_64
-license: MIT
+license: Apache-2.0
 
 icon: assets/img/logo-512.png
 
@@ -16,8 +16,8 @@ keywords:
   - LAN
   - Files
 
-generic_name: An open source cross-platform alternative to AirDrop
-summary: Share files easily with LocalSend
+generic_name: Secure local network file transfer
+summary: Securely transfer files on your local network with 云联局域网快传 V1.0
 group: Applications/Utilities
 
 categories:

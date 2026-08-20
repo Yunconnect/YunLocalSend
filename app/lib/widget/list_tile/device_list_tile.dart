@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:localsend_app/util/device_type_ext.dart';
-import 'package:localsend_app/widget/custom_progress_bar.dart';
-import 'package:localsend_app/widget/device_bage.dart';
-import 'package:localsend_app/widget/list_tile/custom_list_tile.dart';
+import 'package:yun_lan_transfer/util/device_type_ext.dart';
+import 'package:yun_lan_transfer/widget/custom_progress_bar.dart';
+import 'package:yun_lan_transfer/widget/device_bage.dart';
+import 'package:yun_lan_transfer/widget/list_tile/custom_list_tile.dart';
 import 'package:localsend_isolates/model/device.dart';
 
 class DeviceListTile extends StatelessWidget {

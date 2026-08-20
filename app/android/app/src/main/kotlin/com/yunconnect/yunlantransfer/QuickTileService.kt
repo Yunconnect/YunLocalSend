@@ -1,4 +1,4 @@
-package org.localsend.localsend_app
+package com.yunconnect.yunlantransfer
 
 import android.annotation.SuppressLint
 import android.app.ActivityManager

@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:localsend_app/config/theme.dart';
+import 'package:yun_lan_transfer/config/theme.dart';
 
 class CustomListTile extends StatelessWidget {
   final Widget? icon;

@@ -40,7 +40,7 @@ class TranslationsVi extends Translations with BaseTranslations<AppLocale, Trans
 
   // Translations
   @override
-  String get appName => 'LocalSend';
+  String get appName => '云联局域网快传 V1.0';
   @override
   late final _Translations$general$vi general = _Translations$general$vi._(_root);
   @override
@@ -289,7 +289,7 @@ class _Translations$networkInterfacesPage$vi extends Translations$networkInterfa
   String get title => 'Card mạng';
   @override
   String get info =>
-      'LocalSend mặc định sử dụng tất cả các giao diện mạng có sẵn. Bạn có thể loại trừ các mạng không mong muốn tại đây. Bạn cần khởi động lại server để áp dụng các thay đổi.';
+      '云联局域网快传 V1.0 mặc định sử dụng tất cả các giao diện mạng có sẵn. Bạn có thể loại trừ các mạng không mong muốn tại đây. Bạn cần khởi động lại server để áp dụng các thay đổi.';
   @override
   String get preview => 'Xem trước';
   @override
@@ -414,7 +414,7 @@ class _Translations$receiveOptionsPage$vi extends Translations$receiveOptionsPag
   @override
   String get destination => _root.settingsTab.receive.destination;
   @override
-  String get appDirectory => '(Thư mục LocalSend)';
+  String get appDirectory => '(Thư mục 云联局域网快传 V1.0)';
   @override
   String get saveToGallery => _root.settingsTab.receive.saveToGallery;
   @override
@@ -493,7 +493,7 @@ class _Translations$webSharePage$vi extends Translations$webSharePage$en {
   @override
   String pinHint({required Object pin}) => 'Mã PIN là "${pin}"';
   @override
-  String get encryptionHint => 'LocalSend dùng chứng chỉ tự tạo. Bạn cần chấp thuận trong trình duyệt.';
+  String get encryptionHint => '云联局域网快传 V1.0 dùng chứng chỉ tự tạo. Bạn cần chấp thuận trong trình duyệt.';
   @override
   String pendingRequests({required Object n}) => 'Yêu cầu chờ: ${n}';
 }
@@ -517,11 +517,10 @@ class _Translations$aboutPage$vi extends Translations$aboutPage$en {
 
   // Translations
   @override
-  String get title => 'Thông tin về LocalSend';
+  String get title => 'Thông tin về 云联局域网快传 V1.0';
   @override
   List<String> get description => [
-    'LocalSend là một phần mềm miễn phí mã nguồn mở, giúp bạn chia sẻ tập tin cũng như tin nhắn đến các thiết bị phụ cận một cách bảo mật thông qua mạng nội bộ mà không cần kết nối mạng đến bên ngoài.',
-    'Ứng dụng có trên Android, iOS, macOS, Windows và Linux. Bạn có thể tìm thấy các tuỳ chọn tải ở trang chủ.',
+    '云联局域网快传 V1.0 là một phần mềm miễn phí mã nguồn mở, giúp bạn chia sẻ tập tin cũng như tin nhắn đến các thiết bị phụ cận một cách bảo mật thông qua mạng nội bộ mà không cần kết nối mạng đến bên ngoài.',
   ];
   @override
   String get author => 'Tác giả';
@@ -544,7 +543,7 @@ class _Translations$donationPage$vi extends Translations$donationPage$en {
   String get title => 'Ủng hộ';
   @override
   String get info =>
-      'LocalSend là ứng dụng miễn phí, mã nguồn mở, không chứa quảng cáo. Nếu bạn yêu thích ứng dụng này, bạn có thể hỗ trợ việc phát triển bằng việc ủng hộ.';
+      '云联局域网快传 V1.0 là ứng dụng miễn phí, mã nguồn mở, không chứa quảng cáo. Nếu bạn yêu thích ứng dụng này, bạn có thể hỗ trợ việc phát triển bằng việc ủng hộ.';
   @override
   String donate({required Object amount}) => 'Ủng hộ ${amount}';
   @override
@@ -660,7 +659,7 @@ class _Translations$tray$vi extends Translations$tray$en {
   @override
   String get open => _root.general.open;
   @override
-  String get close => 'Đóng LocalSend';
+  String get close => 'Đóng 云联局域网快传 V1.0';
   @override
   String get closeWindows => 'Thoát';
 }
@@ -871,7 +870,7 @@ class _Translations$settingsTab$general$vi extends Translations$settingsTab$gene
   @override
   String get launchMinimized => 'Tự khởi động: Khởi động ẩn';
   @override
-  String get showInContextMenu => 'Hiển thị LocalSend ở danh mục';
+  String get showInContextMenu => 'Hiển thị 云联局域网快传 V1.0 ở danh mục';
   @override
   String get animations => 'Hoạt ảnh';
 }
@@ -973,7 +972,7 @@ class _Translations$settingsTab$other$vi extends Translations$settingsTab$other$
   @override
   String get title => 'Khác';
   @override
-  String get support => 'Hỗ trợ LocalSend';
+  String get support => 'Hỗ trợ 云联局域网快传 V1.0';
   @override
   String get donate => 'Ủng hộ';
   @override
@@ -1325,7 +1324,7 @@ class _Translations$dialogs$localNetworkUnauthorized$vi extends Translations$dia
   String get title => _root.dialogs.noPermission.title;
   @override
   String get description =>
-      'LocalSend không thể tìm kiếm thiết bị khác khi không được phép quét mạng nội bộ. Vui lòng trao quyền cho ứng dụng trong cài đặt.';
+      '云联局域网快传 V1.0 không thể tìm kiếm thiết bị khác khi không được phép quét mạng nội bộ. Vui lòng trao quyền cho ứng dụng trong cài đặt.';
   @override
   String get gotoSettings => 'Cài đặt';
 }
@@ -1468,7 +1467,7 @@ class _Translations$dialogs$sendModeHelp$vi extends Translations$dialogs$sendMod
   @override
   String get multiple => 'Gửi tập tin tới nhiều người nhận. Lựa chọn sẽ không bị xoá.';
   @override
-  String get link => 'Người nhận chưa cài đặt LocalSend có thể nhận tập tin bằng cách mở liên kết trong trình duyệt.';
+  String get link => 'Người nhận chưa cài đặt 云联局域网快传 V1.0 có thể nhận tập tin bằng cách mở liên kết trong trình duyệt.';
 }
 
 // Path: dialogs.zoom
