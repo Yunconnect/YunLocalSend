@@ -59,7 +59,7 @@ jobs:
           Compress-Archive -Path "$release\*" -DestinationPath '云联局域网快传_V1.0_Windows_x64.zip'
 
       - name: 上传 Windows 便携版
-        uses: actions/upload-artifact@v6
+        uses: actions/upload-artifact@v7
         with:
           name: 云联局域网快传_V1.0_Windows_x64
           path: app/云联局域网快传_V1.0_Windows_x64.zip
@@ -96,7 +96,7 @@ jobs:
         run: flutter build apk --release --split-per-abi
 
       - name: 上传 Android APK
-        uses: actions/upload-artifact@v6
+        uses: actions/upload-artifact@v7
         with:
           name: 云联局域网快传_V1.0_Android_APK
           path: |
@@ -141,7 +141,7 @@ jobs:
           tar -czf ../../../../云联局域网快传_V1.0_Linux_x64.tar.gz .
 
       - name: 上传 Linux 发布包
-        uses: actions/upload-artifact@v6
+        uses: actions/upload-artifact@v7
         with:
           name: 云联局域网快传_V1.0_Linux_x64
           path: app/云联局域网快传_V1.0_Linux_x64.tar.gz
