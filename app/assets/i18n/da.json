@@ -1,5 +1,5 @@
 {
-  "appName": "云联局域网快传 V1.0",
+  "appName": "云联局域网快传",
   "general": {
     "accept": "Acceptér",
     "accepted": "Accepteret",
@@ -109,7 +109,7 @@
       "minimizeToTray": "Minimer til systembakken/menulinjen ved lukning",
       "launchAtStartup": "Autostart efter login",
       "launchMinimized": "Autostart: Start skjult",
-      "showInContextMenu": "Vis 云联局域网快传 V1.0 i kontekstmenu",
+      "showInContextMenu": "Vis 云联局域网快传 i kontekstmenu",
       "animations": "Animationer"
     },
     "receive": {
@@ -152,7 +152,7 @@
     },
     "other": {
       "title": "Andet",
-      "support": "Støt 云联局域网快传 V1.0",
+      "support": "Støt 云联局域网快传",
       "donate": "Donér",
       "privacyPolicy": "Privatlivspolitik",
       "termsOfUse": "Brugsbetingelser"
@@ -180,7 +180,7 @@
   },
   "networkInterfacesPage": {
     "title": "Netværksgrænseflader",
-    "info": "Som standard bruger 云联局域网快传 V1.0 alle tilgængelige netværksgrænseflader. Du kan ekskludere uønskede netværk her. Du skal genstarte serveren for at anvende ændringerne.",
+    "info": "Som standard bruger 云联局域网快传 alle tilgængelige netværksgrænseflader. Du kan ekskludere uønskede netværk her. Du skal genstarte serveren for at anvende ændringerne.",
     "preview": "Forhåndsvisning",
     "whitelist": "Hvidliste",
     "blacklist": "Sortliste"
@@ -241,7 +241,7 @@
   "receiveOptionsPage": {
     "title": "Muligheder",
     "destination": "@:settingsTab.receive.destination",
-    "appDirectory": "(云联局域网快传 V1.0 mappe)",
+    "appDirectory": "(云联局域网快传 mappe)",
     "saveToGallery": "@:settingsTab.receive.saveToGallery",
     "saveToGalleryOff": "Slået fra automatisk, fordi der er mapper."
   },
@@ -293,16 +293,16 @@
     "autoAccept": "Accepter automatisk anmodninger",
     "requirePin": "Kræv PIN-kode",
     "pinHint": "PIN-koden er \"{pin}\"",
-    "encryptionHint": "云联局域网快传 V1.0 bruger et selvsigneret certifikat. Du skal acceptere det i din browser.",
+    "encryptionHint": "云联局域网快传 bruger et selvsigneret certifikat. Du skal acceptere det i din browser.",
     "pendingRequests": "Afventende forespørgsler: {n}"
   },
   "webReceivePage": {
     "title": "Modtag via link"
   },
   "aboutPage": {
-    "title": "Om 云联局域网快传 V1.0",
+    "title": "Om 云联局域网快传",
     "description": [
-      "云联局域网快传 V1.0 er en gratis, open source-app, der lader dig dele filer og beskeder sikkert med enheder i nærheden over dit lokale netværk uden behov for en internetforbindelse."
+      "云联局域网快传 er en gratis, open source-app, der lader dig dele filer og beskeder sikkert med enheder i nærheden over dit lokale netværk uden behov for en internetforbindelse."
     ],
     "author": "Skaber",
     "contributors": "Bidragydere",
@@ -311,7 +311,7 @@
   },
   "donationPage": {
     "title": "Donér",
-    "info": "云联局域网快传 V1.0 er gratis, open source og uden annoncer. Hvis du kan lide appen, kan du støtte udviklingen med en donation.",
+    "info": "云联局域网快传 er gratis, open source og uden annoncer. Hvis du kan lide appen, kan du støtte udviklingen med en donation.",
     "donate": "Donér {amount}",
     "thanks": "Tusind tak for din støtte!",
     "restore": "Gendan køb"
@@ -397,7 +397,7 @@
     },
     "localNetworkUnauthorized": {
       "title": "@:dialogs.noPermission.title",
-      "description": "云联局域网快传 V1.0 kan ikke finde andre enheder uden tilladelse til at scanne det lokale netværk. Giv venligst tilladelse i systemindstillingerne.",
+      "description": "云联局域网快传 kan ikke finde andre enheder uden tilladelse til at scanne det lokale netværk. Giv venligst tilladelse i systemindstillingerne.",
       "gotoSettings": "Indstillinger"
     },
     "messageInput": {
@@ -444,7 +444,7 @@
       "title": "Send-tilstande",
       "single": "Sender filer til én modtager. Valget ryddes efter filoverførsel er færdig.",
       "multiple": "Sender filer til flere modtager. Valget ryddes ikke efter filoverførsel er færdig.",
-      "link": "Modtagere, der ikke har 云联局域网快传 V1.0 installeret, kan hente de valgte filer ved at åbne linket i deres browser."
+      "link": "Modtagere, der ikke har 云联局域网快传 installeret, kan hente de valgte filer ved at åbne linket i deres browser."
     },
     "zoom": {
       "title": "URL"
@@ -457,7 +457,7 @@
   "tray": {
     "@info": "Apples retningslinjer er meget strenge angående ordet \"luk\".",
     "open": "@:general.open",
-    "close": "Afslut 云联局域网快传 V1.0",
+    "close": "Afslut 云联局域网快传",
     "closeWindows": "Luk"
   },
   "web": {

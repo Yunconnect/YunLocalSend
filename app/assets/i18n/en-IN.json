@@ -1,5 +1,5 @@
 {
-  "appName": "云联局域网快传 V1.0",
+  "appName": "云联局域网快传",
   "general": {
     "accept": "Accept",
     "accepted": "Accepted",
@@ -107,7 +107,7 @@
       "minimizeToTray": "Quit: Minimize to Tray/Menu Bar",
       "launchAtStartup": "Autostart after login",
       "launchMinimized": "Autostart: Start hidden",
-      "showInContextMenu": "Show 云联局域网快传 V1.0 in context menu",
+      "showInContextMenu": "Show 云联局域网快传 in context menu",
       "animations": "Animations"
     },
     "receive": {
@@ -148,7 +148,7 @@
     },
     "other": {
       "title": "Other",
-      "support": "Support 云联局域网快传 V1.0",
+      "support": "Support 云联局域网快传",
       "donate": "Donate",
       "privacyPolicy": "Privacy Policy",
       "termsOfUse": "Terms of Use"
@@ -176,7 +176,7 @@
   },
   "networkInterfacesPage": {
     "title": "Network Interfaces",
-    "info": "By default, 云联局域网快传 V1.0 uses all available network interfaces. You can exclude unwanted networks here. You need to restart the server to apply the changes.",
+    "info": "By default, 云联局域网快传 uses all available network interfaces. You can exclude unwanted networks here. You need to restart the server to apply the changes.",
     "preview": "Preview",
     "whitelist": "Whitelist",
     "blacklist": "Blacklist"
@@ -214,7 +214,7 @@
   "receiveOptionsPage": {
     "title": "Options",
     "destination": "@:settingsTab.receive.destination",
-    "appDirectory": "(云联局域网快传 V1.0 folder)",
+    "appDirectory": "(云联局域网快传 folder)",
     "saveToGallery": "@:settingsTab.receive.saveToGallery",
     "saveToGalleryOff": "Turned off automatically because there are directories."
   },
@@ -255,13 +255,13 @@
     "autoAccept": "Automatically accept requests",
     "requirePin": "Require PIN",
     "pinHint": "The PIN is \"{pin}\"",
-    "encryptionHint": "云联局域网快传 V1.0 uses a self-signed certificate. You need to accept it in your browser.",
+    "encryptionHint": "云联局域网快传 uses a self-signed certificate. You need to accept it in your browser.",
     "pendingRequests": "Pending requests: {n}"
   },
   "aboutPage": {
-    "title": "About 云联局域网快传 V1.0",
+    "title": "About 云联局域网快传",
     "description": [
-      "云联局域网快传 V1.0 is a free, open-source app that allows you to securely share files and messages with nearby devices over your local network without needing an internet connection."
+      "云联局域网快传 is a free, open-source app that allows you to securely share files and messages with nearby devices over your local network without needing an internet connection."
     ],
     "author": "Author",
     "contributors": "Contributors",
@@ -270,7 +270,7 @@
   },
   "donationPage": {
     "title": "Donate",
-    "info": "云联局域网快传 V1.0 is free, open-source and without any ads. If you like the app, you can support the development with a donation.",
+    "info": "云联局域网快传 is free, open-source and without any ads. If you like the app, you can support the development with a donation.",
     "donate": "Donate {amount}",
     "thanks": "Thank you very much!",
     "restore": "Restore purchase"
@@ -414,7 +414,7 @@
     },
     "localNetworkUnauthorized": {
       "title": "@:dialogs.noPermission.title",
-      "description": "云联局域网快传 V1.0 can't find other devices without having the permission to scan the local network. Please grant this permission in the settings.",
+      "description": "云联局域网快传 can't find other devices without having the permission to scan the local network. Please grant this permission in the settings.",
       "gotoSettings": "Settings"
     },
     "messageInput": {
@@ -461,7 +461,7 @@
       "title": "Send modes",
       "single": "Sends files to one recipient. Selection will be cleared after finished file transfer.",
       "multiple": "Sends files to multiple recipients. Selection will not be cleared.",
-      "link": "Recipients who do not have 云联局域网快传 V1.0 installed can download the selected files by opening the link in their browser."
+      "link": "Recipients who do not have 云联局域网快传 installed can download the selected files by opening the link in their browser."
     },
     "zoom": {
       "title": "URL"
@@ -474,7 +474,7 @@
   "tray": {
     "@info": "Apple Guidelines are very strict about the 'close' wording.",
     "open": "@:general.open",
-    "close": "Quit 云联局域网快传 V1.0",
+    "close": "Quit 云联局域网快传",
     "closeWindows": "Exit"
   },
   "web": {

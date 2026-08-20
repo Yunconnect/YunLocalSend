@@ -1,5 +1,5 @@
 {
-  "appName": "云联局域网快传 V1.0",
+  "appName": "云联局域网快传",
   "general": {
     "accept": "Akceptuj",
     "accepted": "Zaakceptowane",
@@ -109,7 +109,7 @@
       "minimizeToTray": "Zminimalizuj do menu ukrytych ikon przy zamykaniu",
       "launchAtStartup": "Autostart po zalogowaniu",
       "launchMinimized": "Autostart: start ukryty",
-      "showInContextMenu": "Pokaż 云联局域网快传 V1.0 w menu kontekstowym",
+      "showInContextMenu": "Pokaż 云联局域网快传 w menu kontekstowym",
       "animations": "Animacje"
     },
     "receive": {
@@ -152,7 +152,7 @@
     },
     "other": {
       "title": "Inne",
-      "support": "Wesprzyj 云联局域网快传 V1.0",
+      "support": "Wesprzyj 云联局域网快传",
       "donate": "Przekaż darowiznę",
       "privacyPolicy": "Polityka prywatności",
       "termsOfUse": "Warunki korzystania"
@@ -180,7 +180,7 @@
   },
   "networkInterfacesPage": {
     "title": "Interfejsy sieciowe",
-    "info": "Domyślnie 云联局域网快传 V1.0 używa wszystkich dostępnych interfejsów sieciowych. Możesz tutaj wykluczyć niechciane sieci. Musisz ponownie uruchomić serwer, aby zastosować zmiany.",
+    "info": "Domyślnie 云联局域网快传 używa wszystkich dostępnych interfejsów sieciowych. Możesz tutaj wykluczyć niechciane sieci. Musisz ponownie uruchomić serwer, aby zastosować zmiany.",
     "preview": "Podgląd",
     "whitelist": "Biała lista",
     "blacklist": "Czarna lista"
@@ -241,7 +241,7 @@
   "receiveOptionsPage": {
     "title": "Opcje",
     "destination": "@:settingsTab.receive.destination",
-    "appDirectory": "(Folder 云联局域网快传 V1.0)",
+    "appDirectory": "(Folder 云联局域网快传)",
     "saveToGallery": "@:settingsTab.receive.saveToGallery",
     "saveToGalleryOff": "Wyłączono automatycznie, ponieważ istnieją katalogi."
   },
@@ -293,16 +293,16 @@
     "autoAccept": "Automatycznie akceptuj żądania",
     "requirePin": "Wymagaj kodu PIN",
     "pinHint": "Kod PIN to „{pin}”",
-    "encryptionHint": "云联局域网快传 V1.0 używa samopodpisanego certyfikatu. Musisz go zaakceptować w przeglądarce.",
+    "encryptionHint": "云联局域网快传 używa samopodpisanego certyfikatu. Musisz go zaakceptować w przeglądarce.",
     "pendingRequests": "Oczekujące żądania: {n}"
   },
   "webReceivePage": {
     "title": "Odbierz przez link"
   },
   "aboutPage": {
-    "title": "O 云联局域网快传 V1.0",
+    "title": "O 云联局域网快传",
     "description": [
-      "云联局域网快传 V1.0 jest darmową, otwartoźródłową aplikacją, która pozwala na bezpieczne udostępnianie plików i wiadomości urządzeniom w pobliżu poprzez Twoją sieć lokalną, bez konieczności połączenia z internetem."
+      "云联局域网快传 jest darmową, otwartoźródłową aplikacją, która pozwala na bezpieczne udostępnianie plików i wiadomości urządzeniom w pobliżu poprzez Twoją sieć lokalną, bez konieczności połączenia z internetem."
     ],
     "author": "Autor",
     "contributors": "Współautorzy",
@@ -311,7 +311,7 @@
   },
   "donationPage": {
     "title": "Przekaż darowiznę",
-    "info": "云联局域网快传 V1.0 jest darmową, otwartoźródłową aplikacją bez żadnych reklam. Jeśli podoba Ci się aplikacja, możesz wesprzeć jej rozwój darowizną.",
+    "info": "云联局域网快传 jest darmową, otwartoźródłową aplikacją bez żadnych reklam. Jeśli podoba Ci się aplikacja, możesz wesprzeć jej rozwój darowizną.",
     "donate": "Przekaż {amount}",
     "thanks": "Bardzo Ci dziękuję!",
     "restore": "Przywróć zakup"
@@ -397,7 +397,7 @@
     },
     "localNetworkUnauthorized": {
       "title": "@:dialogs.noPermission.title",
-      "description": "云联局域网快传 V1.0 nie może znaleźć innych urządzeń bez uprawnienia do skanowania sieci lokalnej. Udziel tego uprawnienia w ustawieniach.",
+      "description": "云联局域网快传 nie może znaleźć innych urządzeń bez uprawnienia do skanowania sieci lokalnej. Udziel tego uprawnienia w ustawieniach.",
       "gotoSettings": "Ustawienia"
     },
     "messageInput": {
@@ -444,7 +444,7 @@
       "title": "Tryby wysyłania",
       "single": "Wysyła pliki do jednego odbiorcy. Wybór zostanie wyczyszczony po zakończonym transferze pliku.",
       "multiple": "Wysyła pliki do wielu odbiorców. Wybór nie zostanie wyczyszczony.",
-      "link": "Odbiorcy, którzy nie mają zainstalowanego 云联局域网快传 V1.0, mogą pobrać wybrane pliki, otwierając link w swojej przeglądarce."
+      "link": "Odbiorcy, którzy nie mają zainstalowanego 云联局域网快传, mogą pobrać wybrane pliki, otwierając link w swojej przeglądarce."
     },
     "zoom": {
       "title": "Adres URL"
@@ -457,7 +457,7 @@
   "tray": {
     "@info": "Wytyczne Apple są bardzo surowe, jeśli chodzi o „zamknięte” sformułowanie.",
     "open": "@:general.open",
-    "close": "Zakończ 云联局域网快传 V1.0",
+    "close": "Zakończ 云联局域网快传",
     "closeWindows": "Zamknij"
   },
   "web": {

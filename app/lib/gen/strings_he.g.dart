@@ -40,7 +40,7 @@ class TranslationsHe extends Translations with BaseTranslations<AppLocale, Trans
 
   // Translations
   @override
-  String get appName => '云联局域网快传 V1.0';
+  String get appName => '云联局域网快传';
   @override
   late final _Translations$general$he general = _Translations$general$he._(_root);
   @override
@@ -289,7 +289,7 @@ class _Translations$networkInterfacesPage$he extends Translations$networkInterfa
   String get title => 'ממשקי רשת';
   @override
   String get info =>
-      'כברירת מחדל, 云联局域网快传 V1.0 משתמש בכל ממשקי הרשת הזמינים. באפשרותך להסיר רשתות שאינן רצויות כאן. עליך להפעיל מחדש את השרת כדי להחיל את השינויים.';
+      'כברירת מחדל, 云联局域网快传 משתמש בכל ממשקי הרשת הזמינים. באפשרותך להסיר רשתות שאינן רצויות כאן. עליך להפעיל מחדש את השרת כדי להחיל את השינויים.';
   @override
   String get preview => 'תצוגה מקדימה';
   @override
@@ -414,7 +414,7 @@ class _Translations$receiveOptionsPage$he extends Translations$receiveOptionsPag
   @override
   String get destination => _root.settingsTab.receive.destination;
   @override
-  String get appDirectory => '(תיקיית 云联局域网快传 V1.0)';
+  String get appDirectory => '(תיקיית 云联局域网快传)';
   @override
   String get saveToGallery => _root.settingsTab.receive.saveToGallery;
   @override
@@ -493,7 +493,7 @@ class _Translations$webSharePage$he extends Translations$webSharePage$en {
   @override
   String pinHint({required Object pin}) => 'הסיסמה היא "${pin}"';
   @override
-  String get encryptionHint => '云联局域网快传 V1.0 משתמש בתעודה עצמית. עליך לאשר אותה בדפדפן.';
+  String get encryptionHint => '云联局域网快传 משתמש בתעודה עצמית. עליך לאשר אותה בדפדפן.';
   @override
   String pendingRequests({required Object n}) => 'בקשות בהמתנה: ${n}';
 }
@@ -517,10 +517,10 @@ class _Translations$aboutPage$he extends Translations$aboutPage$en {
 
   // Translations
   @override
-  String get title => 'אודות 云联局域网快传 V1.0';
+  String get title => 'אודות 云联局域网快传';
   @override
   List<String> get description => [
-    '云联局域网快传 V1.0 היא אפליקציית קוד פתוח חינמית המאפשרת לשתף קבצים והודעות בצורה מאובטחת עם מכשירים קרובים דרך הרשת המקומית מבלי להזדקק לחיבור לאינטרנט.',
+    '云联局域网快传 היא אפליקציית קוד פתוח חינמית המאפשרת לשתף קבצים והודעות בצורה מאובטחת עם מכשירים קרובים דרך הרשת המקומית מבלי להזדקק לחיבור לאינטרנט.',
   ];
   @override
   String get author => 'יוצר';
@@ -542,7 +542,7 @@ class _Translations$donationPage$he extends Translations$donationPage$en {
   @override
   String get title => 'תרומה';
   @override
-  String get info => 'אפליקציית 云联局域网快传 V1.0 היא חינמית, קוד פתוח וללא פרסומות. אם אתה אוהב את האפליקציה, אתה יכול לתמוך בפיתוח באמצעות תרומה.';
+  String get info => 'אפליקציית 云联局域网快传 היא חינמית, קוד פתוח וללא פרסומות. אם אתה אוהב את האפליקציה, אתה יכול לתמוך בפיתוח באמצעות תרומה.';
   @override
   String donate({required Object amount}) => 'תרומת ${amount}';
   @override
@@ -658,7 +658,7 @@ class _Translations$tray$he extends Translations$tray$en {
   @override
   String get open => _root.general.open;
   @override
-  String get close => 'צא מ-云联局域网快传 V1.0';
+  String get close => 'צא מ-云联局域网快传';
   @override
   String get closeWindows => 'יציאה';
 }
@@ -868,7 +868,7 @@ class _Translations$settingsTab$general$he extends Translations$settingsTab$gene
   @override
   String get launchMinimized => 'הפעלה אוטומטית: התחל מוסתר';
   @override
-  String get showInContextMenu => 'הצג את 云联局域网快传 V1.0 בתפריט ההקשר';
+  String get showInContextMenu => 'הצג את 云联局域网快传 בתפריט ההקשר';
   @override
   String get animations => 'אנימציות';
 }
@@ -970,7 +970,7 @@ class _Translations$settingsTab$other$he extends Translations$settingsTab$other$
   @override
   String get title => 'אחר';
   @override
-  String get support => 'תמיכה ב-云联局域网快传 V1.0';
+  String get support => 'תמיכה ב-云联局域网快传';
   @override
   String get donate => 'תרומה';
   @override
@@ -1324,7 +1324,7 @@ class _Translations$dialogs$localNetworkUnauthorized$he extends Translations$dia
   @override
   String get title => _root.dialogs.noPermission.title;
   @override
-  String get description => 'ל־云联局域网快传 V1.0 אין אפשרות למצוא מכשירים אחרים ללא הרשאה לסריקת הרשת המקומית. אנא הענק את ההרשאה הזו בהגדרות.';
+  String get description => 'ל־云联局域网快传 אין אפשרות למצוא מכשירים אחרים ללא הרשאה לסריקת הרשת המקומית. אנא הענק את ההרשאה הזו בהגדרות.';
   @override
   String get gotoSettings => 'הגדרות';
 }
@@ -1466,7 +1466,7 @@ class _Translations$dialogs$sendModeHelp$he extends Translations$dialogs$sendMod
   @override
   String get multiple => 'שליחת קבצים למקבלים מרובים. בחירת הקבצים לא תתאפס.';
   @override
-  String get link => 'מקבלים ש-云联局域网快传 V1.0 לא מותקן אצלם יוכלו להוריד את הקבצים שנבחרו על ידי פתיחת הקישור בדפדפן שלהם.';
+  String get link => 'מקבלים ש-云联局域网快传 לא מותקן אצלם יוכלו להוריד את הקבצים שנבחרו על ידי פתיחת הקישור בדפדפן שלהם.';
 }
 
 // Path: dialogs.zoom

@@ -1,4 +1,4 @@
-display_name: 云联局域网快传 V1.0
+display_name: 云联局域网快传
 package_name: yun-local-send
 maintainer:
   name: Tienisto
@@ -22,7 +22,7 @@ dependencies:
   - xdg-user-dirs
 
 postinstall_scripts:
-  - echo "Installed 云联局域网快传 V1.0 successfully"
+  - echo "Installed 云联局域网快传 successfully"
 postuninstall_scripts:
   - echo "Sorry to see you go :("
 

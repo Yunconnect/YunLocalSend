@@ -40,7 +40,7 @@ class TranslationsEu extends Translations with BaseTranslations<AppLocale, Trans
 
   // Translations
   @override
-  String get appName => '云联局域网快传 V1.0';
+  String get appName => '云联局域网快传';
   @override
   late final _Translations$general$eu general = _Translations$general$eu._(_root);
   @override
@@ -289,7 +289,7 @@ class _Translations$networkInterfacesPage$eu extends Translations$networkInterfa
   String get title => 'Sare interfazeak';
   @override
   String get info =>
-      'Lehenespenez, 云联局域网快传 V1.0-ek eskuragarri dauden sare-interfaze guztiak erabiltzen ditu. Nahi ez dituzun sareak hemen baztertu ditzakezu. Zerbitzaria berrabiarazi behar duzu aldaketak aplikatzeko.';
+      'Lehenespenez, 云联局域网快传-ek eskuragarri dauden sare-interfaze guztiak erabiltzen ditu. Nahi ez dituzun sareak hemen baztertu ditzakezu. Zerbitzaria berrabiarazi behar duzu aldaketak aplikatzeko.';
   @override
   String get preview => 'Aurrebista';
   @override
@@ -493,7 +493,7 @@ class _Translations$webSharePage$eu extends Translations$webSharePage$en {
   @override
   String pinHint({required Object pin}) => 'PINa "${pin}" da';
   @override
-  String get encryptionHint => '云联局域网快传 V1.0-ek autosinatutako zertifikatuak erabiltzen ditu. Nabigatzailean onartu behar duzu';
+  String get encryptionHint => '云联局域网快传-ek autosinatutako zertifikatuak erabiltzen ditu. Nabigatzailean onartu behar duzu';
   @override
   String pendingRequests({required Object n}) => 'Eskerak: ${n}';
 }
@@ -517,10 +517,10 @@ class _Translations$aboutPage$eu extends Translations$aboutPage$en {
 
   // Translations
   @override
-  String get title => '云联局域网快传 V1.0 buruz';
+  String get title => '云联局域网快传 buruz';
   @override
   List<String> get description => [
-    '云联局域网快传 V1.0 doako eta kode irekiko aplikazio bat da, gertuko gailuekin fitxategiak eta mezuak modu seguruan partekatzeko aukera ematen dizuna zure sare lokalaren bidez, interneteko konexiorik behar izan gabe.',
+    '云联局域网快传 doako eta kode irekiko aplikazio bat da, gertuko gailuekin fitxategiak eta mezuak modu seguruan partekatzeko aukera ematen dizuna zure sare lokalaren bidez, interneteko konexiorik behar izan gabe.',
   ];
   @override
   String get author => 'Egilea';
@@ -543,7 +543,7 @@ class _Translations$donationPage$eu extends Translations$donationPage$en {
   String get title => 'Egin dohaintza';
   @override
   String get info =>
-      '云联局域网快传 V1.0 doakoa da, kode irekikoa eta iragarkirik gabea. Aplikazioa gustuko baduzu, garapena dohaintza batekin lagun dezakezu.';
+      '云联局域网快传 doakoa da, kode irekikoa eta iragarkirik gabea. Aplikazioa gustuko baduzu, garapena dohaintza batekin lagun dezakezu.';
   @override
   String donate({required Object amount}) => 'Eman ${amount}';
   @override
@@ -659,7 +659,7 @@ class _Translations$tray$eu extends Translations$tray$en {
   @override
   String get open => _root.general.open;
   @override
-  String get close => 'Itxi 云联局域网快传 V1.0';
+  String get close => 'Itxi 云联局域网快传';
   @override
   String get closeWindows => 'Irten';
 }
@@ -870,7 +870,7 @@ class _Translations$settingsTab$general$eu extends Translations$settingsTab$gene
   @override
   String get launchMinimized => 'Hasieratze automatikoa: hasi txikituta';
   @override
-  String get showInContextMenu => 'Erakutsi 云联局域网快传 V1.0 testuinguru menuan';
+  String get showInContextMenu => 'Erakutsi 云联局域网快传 testuinguru menuan';
   @override
   String get animations => 'Animazioak';
 }
@@ -972,7 +972,7 @@ class _Translations$settingsTab$other$eu extends Translations$settingsTab$other$
   @override
   String get title => 'Besteak';
   @override
-  String get support => '云联局域网快传 V1.0 Lagundu';
+  String get support => '云联局域网快传 Lagundu';
   @override
   String get donate => 'Dohaintza egin';
   @override
@@ -1325,7 +1325,7 @@ class _Translations$dialogs$localNetworkUnauthorized$eu extends Translations$dia
   String get title => _root.dialogs.noPermission.title;
   @override
   String get description =>
-      'Sare lokala eskaneatzeko baimenik gabe, 云联局域网快传 V1.0-ek ezin ditu inguruko gailuak aurkitu. Mesedez, onartu baimen hau ezarpenetan.';
+      'Sare lokala eskaneatzeko baimenik gabe, 云联局域网快传-ek ezin ditu inguruko gailuak aurkitu. Mesedez, onartu baimen hau ezarpenetan.';
   @override
   String get gotoSettings => 'Ezarpenak';
 }
@@ -1468,7 +1468,7 @@ class _Translations$dialogs$sendModeHelp$eu extends Translations$dialogs$sendMod
   @override
   String get multiple => 'Bidali fitxategiak hartzaile anitzeri. Aukeraketa ez da garbituko.';
   @override
-  String get link => '云联局域网快传 V1.0 instalatuta ez duten hartzaileak fitxategiak eskuratu ahali zango dituzte lotura nabigatzailean zabalduz.';
+  String get link => '云联局域网快传 instalatuta ez duten hartzaileak fitxategiak eskuratu ahali zango dituzte lotura nabigatzailean zabalduz.';
 }
 
 // Path: dialogs.zoom

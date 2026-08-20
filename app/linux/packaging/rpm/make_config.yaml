@@ -1,4 +1,4 @@
-display_name: 云联局域网快传 V1.0
+display_name: 云联局域网快传
 packager: Tienisto
 packagerEmail: dev.tien.donam@gmail.com
 url: https://github.com/Yunconnect/YunLanTransfer
@@ -17,7 +17,7 @@ keywords:
   - Files
 
 generic_name: Secure local network file transfer
-summary: Securely transfer files on your local network with 云联局域网快传 V1.0
+summary: Securely transfer files on your local network with 云联局域网快传
 group: Applications/Utilities
 
 categories:

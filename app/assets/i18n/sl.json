@@ -1,5 +1,5 @@
 {
-  "appName": "云联局域网快传 V1.0",
+  "appName": "云联局域网快传",
   "general": {
     "accept": "Sprejmi",
     "accepted": "Sprejeto",
@@ -109,7 +109,7 @@
       "minimizeToTray": "Ob zaprtju minimiziraj v sistemski pladenj / meni",
       "launchAtStartup": "Samodejni zagon po prijavi",
       "launchMinimized": "Samodejni zagon: Začni skrito",
-      "showInContextMenu": "Prikaži 云联局域网快传 V1.0 v kontekstnem meniju",
+      "showInContextMenu": "Prikaži 云联局域网快传 v kontekstnem meniju",
       "animations": "Animacije"
     },
     "receive": {
@@ -152,7 +152,7 @@
     },
     "other": {
       "title": "Drugo",
-      "support": "Podprite 云联局域网快传 V1.0",
+      "support": "Podprite 云联局域网快传",
       "donate": "Donirajte",
       "privacyPolicy": "Politika zasebnosti",
       "termsOfUse": "Pogoji uporabe"
@@ -180,7 +180,7 @@
   },
   "networkInterfacesPage": {
     "title": "Omrežni vmesniki",
-    "info": "云联局域网快传 V1.0 privzeto uporablja vse razpoložljive omrežne vmesnike. Tukaj lahko izključite neželena omrežja. Za uveljavitev sprememb morate znova zagnati strežnik.",
+    "info": "云联局域网快传 privzeto uporablja vse razpoložljive omrežne vmesnike. Tukaj lahko izključite neželena omrežja. Za uveljavitev sprememb morate znova zagnati strežnik.",
     "preview": "Predogled",
     "whitelist": "Seznam dovoljenih",
     "blacklist": "Seznam blokiranih"
@@ -241,7 +241,7 @@
   "receiveOptionsPage": {
     "title": "Možnosti",
     "destination": "@:settingsTab.receive.destination",
-    "appDirectory": "(mapa 云联局域网快传 V1.0)",
+    "appDirectory": "(mapa 云联局域网快传)",
     "saveToGallery": "@:settingsTab.receive.saveToGallery",
     "saveToGalleryOff": "Samodejno izklopljeno, ker obstajajo mape."
   },
@@ -293,16 +293,16 @@
     "autoAccept": "Samodejno sprejemaj zahteve",
     "requirePin": "Zahtevaj PIN",
     "pinHint": "PIN je \"{pin}\"",
-    "encryptionHint": "云联局域网快传 V1.0 uporablja samopodpisano potrdilo. Sprejeti ga morate v svojem brskalniku.",
+    "encryptionHint": "云联局域网快传 uporablja samopodpisano potrdilo. Sprejeti ga morate v svojem brskalniku.",
     "pendingRequests": "Čakajoče zahteve: {n}"
   },
   "webReceivePage": {
     "title": "Prejmi prek povezave"
   },
   "aboutPage": {
-    "title": "O 云联局域网快传 V1.0",
+    "title": "O 云联局域网快传",
     "description": [
-      "云联局域网快传 V1.0 je brezplačna, odprtokodna aplikacija, ki vam omogoča varno deljenje datotek in sporočil z napravami v bližini prek lokalnega omrežja brez potrebe po internetni povezavi."
+      "云联局域网快传 je brezplačna, odprtokodna aplikacija, ki vam omogoča varno deljenje datotek in sporočil z napravami v bližini prek lokalnega omrežja brez potrebe po internetni povezavi."
     ],
     "author": "Avtor",
     "contributors": "Sodelavci",
@@ -311,7 +311,7 @@
   },
   "donationPage": {
     "title": "Doniraj",
-    "info": "云联局域网快传 V1.0 je brezplačna, odprtokodna in brez oglasov. Če vam je aplikacija všeč, lahko podprete razvoj z donacijo.",
+    "info": "云联局域网快传 je brezplačna, odprtokodna in brez oglasov. Če vam je aplikacija všeč, lahko podprete razvoj z donacijo.",
     "donate": "Doniraj {amount}",
     "thanks": "Najlepša hvala!",
     "restore": "Obnovi nakup"
@@ -467,7 +467,7 @@
     },
     "localNetworkUnauthorized": {
       "title": "@:dialogs.noPermission.title",
-      "description": "云联局域网快传 V1.0 ne more najti drugih naprav brez dovoljenja za iskanje v lokalnem omrežju. Prosim, omogočite to dovoljenje v nastavitvah.",
+      "description": "云联局域网快传 ne more najti drugih naprav brez dovoljenja za iskanje v lokalnem omrežju. Prosim, omogočite to dovoljenje v nastavitvah.",
       "gotoSettings": "Nastavitve"
     },
     "messageInput": {
@@ -514,7 +514,7 @@
       "title": "Načini pošiljanja",
       "single": "Pošlje datoteke enemu prejemniku. Izbira bo po končanem prenosu izbrisana.",
       "multiple": "Pošlje datoteke več prejemnikom. Izbira po končanem prenosu ne bo izbrisana.",
-      "link": "Prejemniki, ki nimajo nameščenega 云联局域网快传 V1.0, lahko prenesejo izbrane datoteke z odpiranjem povezave v brskalniku."
+      "link": "Prejemniki, ki nimajo nameščenega 云联局域网快传, lahko prenesejo izbrane datoteke z odpiranjem povezave v brskalniku."
     },
     "zoom": {
       "title": "URL"
@@ -527,7 +527,7 @@
   "tray": {
     "@info": "Smernice Appla so zelo stroge glede uporabe besede \"zapri\".",
     "open": "@:general.open",
-    "close": "Zapri 云联局域网快传 V1.0",
+    "close": "Zapri 云联局域网快传",
     "closeWindows": "Izhod"
   },
   "web": {

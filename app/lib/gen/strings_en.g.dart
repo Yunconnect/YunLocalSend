@@ -43,8 +43,8 @@ class Translations with BaseTranslations<AppLocale, Translations> {
 
   // Translations
 
-  /// en: '云联局域网快传 V1.0'
-  String get appName => '云联局域网快传 V1.0';
+  /// en: '云联局域网快传'
+  String get appName => '云联局域网快传';
 
   late final Translations$general$en general = Translations$general$en.internal(_root);
   late final Translations$receiveTab$en receiveTab = Translations$receiveTab$en.internal(_root);
@@ -317,9 +317,9 @@ class Translations$networkInterfacesPage$en {
   /// en: 'Network Interfaces'
   String get title => 'Network Interfaces';
 
-  /// en: 'By default, 云联局域网快传 V1.0 uses all available network interfaces. You can exclude unwanted networks here. You need to restart the server to apply the changes.'
+  /// en: 'By default, 云联局域网快传 uses all available network interfaces. You can exclude unwanted networks here. You need to restart the server to apply the changes.'
   String get info =>
-      'By default, 云联局域网快传 V1.0 uses all available network interfaces. You can exclude unwanted networks here. You need to restart the server to apply the changes.';
+      'By default, 云联局域网快传 uses all available network interfaces. You can exclude unwanted networks here. You need to restart the server to apply the changes.';
 
   /// en: 'Preview'
   String get preview => 'Preview';
@@ -468,8 +468,8 @@ class Translations$receiveOptionsPage$en {
   /// en: 'Save to folder'
   String get destination => _root.settingsTab.receive.destination;
 
-  /// en: '(云联局域网快传 V1.0 folder)'
-  String get appDirectory => '(云联局域网快传 V1.0 folder)';
+  /// en: '(云联局域网快传 folder)'
+  String get appDirectory => '(云联局域网快传 folder)';
 
   /// en: 'Save media to gallery'
   String get saveToGallery => _root.settingsTab.receive.saveToGallery;
@@ -568,8 +568,8 @@ class Translations$webSharePage$en {
   /// en: 'The PIN is "{pin}"'
   String pinHint({required Object pin}) => 'The PIN is "${pin}"';
 
-  /// en: '云联局域网快传 V1.0 uses a self-signed certificate. You need to accept it in your browser.'
-  String get encryptionHint => '云联局域网快传 V1.0 uses a self-signed certificate. You need to accept it in your browser.';
+  /// en: '云联局域网快传 uses a self-signed certificate. You need to accept it in your browser.'
+  String get encryptionHint => '云联局域网快传 uses a self-signed certificate. You need to accept it in your browser.';
 
   /// en: 'Pending requests: {n}'
   String pendingRequests({required Object n}) => 'Pending requests: ${n}';
@@ -595,11 +595,11 @@ class Translations$aboutPage$en {
 
   // Translations
 
-  /// en: 'About 云联局域网快传 V1.0'
-  String get title => 'About 云联局域网快传 V1.0';
+  /// en: 'About 云联局域网快传'
+  String get title => 'About 云联局域网快传';
 
   List<String> get description => [
-    '云联局域网快传 V1.0 is a free, open-source app that allows you to securely share files and messages with nearby devices over your local network without needing an internet connection.',
+    '云联局域网快传 is a free, open-source app that allows you to securely share files and messages with nearby devices over your local network without needing an internet connection.',
   ];
 
   /// en: 'Author'
@@ -626,8 +626,8 @@ class Translations$donationPage$en {
   /// en: 'Donate'
   String get title => 'Donate';
 
-  /// en: '云联局域网快传 V1.0 is free, open-source and without any ads. If you like the app, you can support the development with a donation.'
-  String get info => '云联局域网快传 V1.0 is free, open-source and without any ads. If you like the app, you can support the development with a donation.';
+  /// en: '云联局域网快传 is free, open-source and without any ads. If you like the app, you can support the development with a donation.'
+  String get info => '云联局域网快传 is free, open-source and without any ads. If you like the app, you can support the development with a donation.';
 
   /// en: 'Donate {amount}'
   String donate({required Object amount}) => 'Donate ${amount}';
@@ -812,8 +812,8 @@ class Translations$tray$en {
   /// en: 'Open'
   String get open => _root.general.open;
 
-  /// en: 'Quit 云联局域网快传 V1.0'
-  String get close => 'Quit 云联局域网快传 V1.0';
+  /// en: 'Quit 云联局域网快传'
+  String get close => 'Quit 云联局域网快传';
 
   /// en: 'Exit'
   String get closeWindows => 'Exit';
@@ -1090,8 +1090,8 @@ class Translations$settingsTab$general$en {
   /// en: 'Autostart: Start hidden'
   String get launchMinimized => 'Autostart: Start hidden';
 
-  /// en: 'Show 云联局域网快传 V1.0 in context menu'
-  String get showInContextMenu => 'Show 云联局域网快传 V1.0 in context menu';
+  /// en: 'Show 云联局域网快传 in context menu'
+  String get showInContextMenu => 'Show 云联局域网快传 in context menu';
 
   /// en: 'Animations'
   String get animations => 'Animations';
@@ -1223,8 +1223,8 @@ class Translations$settingsTab$other$en {
   /// en: 'Other'
   String get title => 'Other';
 
-  /// en: 'Support 云联局域网快传 V1.0'
-  String get support => 'Support 云联局域网快传 V1.0';
+  /// en: 'Support 云联局域网快传'
+  String get support => 'Support 云联局域网快传';
 
   /// en: 'Donate'
   String get donate => 'Donate';
@@ -1637,9 +1637,9 @@ class Translations$dialogs$localNetworkUnauthorized$en {
   /// en: 'No permission'
   String get title => _root.dialogs.noPermission.title;
 
-  /// en: '云联局域网快传 V1.0 can't find other devices without having the permission to scan the local network. Please grant this permission in the settings.'
+  /// en: '云联局域网快传 can't find other devices without having the permission to scan the local network. Please grant this permission in the settings.'
   String get description =>
-      '云联局域网快传 V1.0 can\'t find other devices without having the permission to scan the local network. Please grant this permission in the settings.';
+      '云联局域网快传 can\'t find other devices without having the permission to scan the local network. Please grant this permission in the settings.';
 
   /// en: 'Settings'
   String get gotoSettings => 'Settings';
@@ -1804,8 +1804,8 @@ class Translations$dialogs$sendModeHelp$en {
   /// en: 'Sends files to multiple recipients. Selection will not be cleared after finished files transfer.'
   String get multiple => 'Sends files to multiple recipients. Selection will not be cleared after finished files transfer.';
 
-  /// en: 'Recipients who do not have 云联局域网快传 V1.0 installed can download the selected files by opening the link in their browser.'
-  String get link => 'Recipients who do not have 云联局域网快传 V1.0 installed can download the selected files by opening the link in their browser.';
+  /// en: 'Recipients who do not have 云联局域网快传 installed can download the selected files by opening the link in their browser.'
+  String get link => 'Recipients who do not have 云联局域网快传 installed can download the selected files by opening the link in their browser.';
 }
 
 // Path: dialogs.zoom

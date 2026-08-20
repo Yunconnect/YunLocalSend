@@ -207,10 +207,8 @@ class PersistenceService {
   }
 
   static Future<void> _initColorSetting(SharedPreferences prefs, bool supportsDynamicColors) async {
-    await prefs.setString(
-      _colorKey,
-      checkPlatform([TargetPlatform.android]) && supportsDynamicColors ? ColorMode.system.name : ColorMode.localsend.name,
-    );
+    // 云联 OEM 统一采用固定蓝白主题，不跟随系统动态取色。
+    await prefs.setString(_colorKey, ColorMode.localsend.name);
   }
 
   bool isPortableMode() {
@@ -284,35 +282,23 @@ class PersistenceService {
     await _prefs.setString(_aliasKey, alias);
   }
 
-  ThemeMode getTheme() {
-    final value = _prefs.getString(_themeKey);
-    if (value == null) {
-      return ThemeMode.system;
-    }
-    return ThemeMode.values.firstWhereOrNull((theme) => theme.name == value) ?? ThemeMode.system;
-  }
+  ThemeMode getTheme() => ThemeMode.light;
 
   Future<void> setTheme(ThemeMode theme) async {
-    await _prefs.setString(_themeKey, theme.name);
+    await _prefs.setString(_themeKey, ThemeMode.light.name);
   }
 
-  ColorMode getColorMode() {
-    final value = _prefs.getString(_colorKey);
-    if (value == null) {
-      return ColorMode.system;
-    }
-    return ColorMode.values.firstWhereOrNull((color) => color.name == value) ?? ColorMode.system;
-  }
+  ColorMode getColorMode() => ColorMode.localsend;
 
   Future<void> setColorMode(ColorMode color) async {
-    await _prefs.setString(_colorKey, color.name);
+    await _prefs.setString(_colorKey, ColorMode.localsend.name);
   }
 
   Color getCustomColor() {
     final value = _prefs.getString(_customColorKey);
     final rgb = value == null ? null : int.tryParse(value, radix: 16);
     if (rgb == null) {
-      return Colors.teal;
+      return const Color(0xFF2F80ED);
     }
     return Color(0xff000000 | rgb);
   }

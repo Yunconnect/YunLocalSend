@@ -1,5 +1,5 @@
 {
-  "appName": "云联局域网快传 V1.0",
+  "appName": "云联局域网快传",
   "general": {
     "accept": "Aceitar",
     "accepted": "Aceito",
@@ -109,7 +109,7 @@
       "minimizeToTray": "Minimizar para a área de notificação ao fechar",
       "launchAtStartup": "Abrir automaticamente após iniciar sessão",
       "launchMinimized": "Início automático: Abrir minimizado",
-      "showInContextMenu": "Mostrar 云联局域网快传 V1.0 no menu de contexto",
+      "showInContextMenu": "Mostrar 云联局域网快传 no menu de contexto",
       "animations": "Animações"
     },
     "receive": {
@@ -152,7 +152,7 @@
     },
     "other": {
       "title": "Outros",
-      "support": "Suporte o 云联局域网快传 V1.0",
+      "support": "Suporte o 云联局域网快传",
       "donate": "Doar",
       "privacyPolicy": "Política de Privacidade",
       "termsOfUse": "Termos de Utilização"
@@ -180,7 +180,7 @@
   },
   "networkInterfacesPage": {
     "title": "Interfaces de rede",
-    "info": "Por padrão, o 云联局域网快传 V1.0 utiliza todas as interfaces de rede disponíveis. Pode excluir as redes indesejadas aqui. É necessário reiniciar o servidor para aplicar as alterações.",
+    "info": "Por padrão, o 云联局域网快传 utiliza todas as interfaces de rede disponíveis. Pode excluir as redes indesejadas aqui. É necessário reiniciar o servidor para aplicar as alterações.",
     "preview": "Anterior",
     "whitelist": "Lista branca",
     "blacklist": "Lista negra"
@@ -241,7 +241,7 @@
   "receiveOptionsPage": {
     "title": "Opções",
     "destination": "@:settingsTab.receive.destination",
-    "appDirectory": "(pasta 云联局域网快传 V1.0)",
+    "appDirectory": "(pasta 云联局域网快传)",
     "saveToGallery": "@:settingsTab.receive.saveToGallery",
     "saveToGalleryOff": "Opção desligada automaticamente pois uma pasta está a ser transferida."
   },
@@ -293,16 +293,16 @@
     "autoAccept": "Aceitar pedidos automaticamente",
     "requirePin": "Solicitar PIN",
     "pinHint": "O PIN é \"{pin}\"",
-    "encryptionHint": "O 云联局域网快传 V1.0 utiliza um certificado assinado automaticamente. Precisa de aceitá-lo no navegador.",
+    "encryptionHint": "O 云联局域网快传 utiliza um certificado assinado automaticamente. Precisa de aceitá-lo no navegador.",
     "pendingRequests": "Pedidos pendentes: {n}"
   },
   "webReceivePage": {
     "title": "Receber via ligação"
   },
   "aboutPage": {
-    "title": "Acerca do 云联局域网快传 V1.0",
+    "title": "Acerca do 云联局域网快传",
     "description": [
-      "O 云联局域网快传 V1.0 é uma aplicação gratuita e de código aberto que permite partilhar ficheiros e mensagens de forma segura com dispositivos próximos através da sua rede local, sem a necessidade de uma ligação à Internet."
+      "O 云联局域网快传 é uma aplicação gratuita e de código aberto que permite partilhar ficheiros e mensagens de forma segura com dispositivos próximos através da sua rede local, sem a necessidade de uma ligação à Internet."
     ],
     "author": "Autor",
     "contributors": "Contribuidores",
@@ -311,7 +311,7 @@
   },
   "donationPage": {
     "title": "Doar",
-    "info": "O 云联局域网快传 V1.0 é um software gratuito, de código aberto e sem qualquer anúncio. Se gosta da aplicação, considere apoiar o desenvolvimento com um donativo.",
+    "info": "O 云联局域网快传 é um software gratuito, de código aberto e sem qualquer anúncio. Se gosta da aplicação, considere apoiar o desenvolvimento com um donativo.",
     "donate": "Doar {amount}",
     "thanks": "Muito obrigado!",
     "restore": "Restaurar compra"
@@ -470,7 +470,7 @@
     },
     "localNetworkUnauthorized": {
       "title": "@:dialogs.noPermission.title",
-      "description": "O 云联局域网快传 V1.0 não consegue encontrar outros dispositivos sem ter a permissão para analisar a rede local. Conceda esta permissão nas definições.",
+      "description": "O 云联局域网快传 não consegue encontrar outros dispositivos sem ter a permissão para analisar a rede local. Conceda esta permissão nas definições.",
       "gotoSettings": "Definições"
     },
     "messageInput": {
@@ -517,7 +517,7 @@
       "title": "Modos de envio",
       "single": "Envia ficheiros para um destinatário. A seleção será apagada após a conclusão da transferência dos ficheiros.",
       "multiple": "Envia ficheiros para vários destinatários. A seleção não será apagada.",
-      "link": "Os destinatários que não têm o 云联局域网快传 V1.0 instalado podem descarregar os ficheiros selecionados abrindo o link fornecido no navegador."
+      "link": "Os destinatários que não têm o 云联局域网快传 instalado podem descarregar os ficheiros selecionados abrindo o link fornecido no navegador."
     },
     "zoom": {
       "title": "URL"
@@ -530,7 +530,7 @@
   "tray": {
     "@info": "Apple Guidelines are very strict about the 'close' wording.",
     "open": "@:general.open",
-    "close": "Fechar o 云联局域网快传 V1.0",
+    "close": "Fechar o 云联局域网快传",
     "closeWindows": "Sair"
   },
   "web": {

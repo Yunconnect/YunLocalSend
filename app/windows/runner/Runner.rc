@@ -14,10 +14,10 @@
 #undef APSTUDIO_READONLY_SYMBOLS
 
 /////////////////////////////////////////////////////////////////////////////
-// English (United States) resources
+// Simplified Chinese resources
 
-#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
-LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+LANGUAGE LANG_CHINESE, SUBLANG_CHINESE_SIMPLIFIED
 
 #ifdef APSTUDIO_INVOKED
 /////////////////////////////////////////////////////////////////////////////
@@ -87,25 +87,25 @@ VS_VERSION_INFO VERSIONINFO
 BEGIN
     BLOCK "StringFileInfo"
     BEGIN
-        BLOCK "040904e4"
+        BLOCK "080404b0"
         BEGIN
             VALUE "CompanyName", "云联软件科技" "\0"
-            VALUE "FileDescription", "云联局域网快传 V1.0" "\0"
+            VALUE "FileDescription", "云联局域网快传" "\0"
             VALUE "FileVersion", VERSION_AS_STRING "\0"
             VALUE "InternalName", "YunLanTransfer" "\0"
             VALUE "LegalCopyright", "Copyright (C) 2026 云联软件科技" "\0"
             VALUE "OriginalFilename", "YunLanTransfer.exe" "\0"
-            VALUE "ProductName", "云联局域网快传 V1.0" "\0"
+            VALUE "ProductName", "云联局域网快传" "\0"
             VALUE "ProductVersion", VERSION_AS_STRING "\0"
         END
     END
     BLOCK "VarFileInfo"
     BEGIN
-        VALUE "Translation", 0x409, 1252
+        VALUE "Translation", 0x0804, 1200
     END
 END
 
-#endif    // English (United States) resources
+#endif    // Simplified Chinese resources
 /////////////////////////////////////////////////////////////////////////////
 
 

@@ -40,7 +40,7 @@ class TranslationsUr extends Translations with BaseTranslations<AppLocale, Trans
 
   // Translations
   @override
-  String get appName => '云联局域网快传 V1.0';
+  String get appName => '云联局域网快传';
   @override
   late final _Translations$general$ur general = _Translations$general$ur._(_root);
   @override
@@ -493,7 +493,7 @@ class _Translations$webSharePage$ur extends Translations$webSharePage$en {
   @override
   String pinHint({required Object pin}) => 'PIN ہے "${pin}"';
   @override
-  String get encryptionHint => '云联局域网快传 V1.0 براؤزر میں استعمال کرنے کیلئے آپ کوخود سائن کردہ سرٹیفکیٹ قبول کرنا ہوگا۔';
+  String get encryptionHint => '云联局域网快传 براؤزر میں استعمال کرنے کیلئے آپ کوخود سائن کردہ سرٹیفکیٹ قبول کرنا ہوگا۔';
   @override
   String pendingRequests({required Object n}) => 'زیر التواء درخواستیں: ${n}';
 }
@@ -517,10 +517,10 @@ class _Translations$aboutPage$ur extends Translations$aboutPage$en {
 
   // Translations
   @override
-  String get title => 'کے بارے میں 云联局域网快传 V1.0';
+  String get title => 'کے بارے میں 云联局域网快传';
   @override
   List<String> get description => [
-    '云联局域网快传 V1.0 ایک مفت، اوپن سورس ایپ ہے جو آپ کو انٹرنیٹ کنکشن کی ضرورت کے بغیر اپنے مقامی نیٹ ورک کے ذریعے قریبی آلات کے ساتھ فائلیں اور پیغامات محفوظ طریقے سے شیئر کرنے کی اجازت دیتی ہے۔',
+    '云联局域网快传 ایک مفت، اوپن سورس ایپ ہے جو آپ کو انٹرنیٹ کنکشن کی ضرورت کے بغیر اپنے مقامی نیٹ ورک کے ذریعے قریبی آلات کے ساتھ فائلیں اور پیغامات محفوظ طریقے سے شیئر کرنے کی اجازت دیتی ہے۔',
   ];
   @override
   String get author => 'مصنف';
@@ -543,7 +543,7 @@ class _Translations$donationPage$ur extends Translations$donationPage$en {
   String get title => 'عطیہ کریں';
   @override
   String get info =>
-      '云联局域网快传 V1.0 مفت، اوپن سورس ہے اور اس میں کوئی اشتہارات نہیں ہیں۔ اگر آپ کو ایپ پسند ہے، تو آپ عطیہ کے ذریعے ترقی کی حمایت کر سکتے ہیں۔';
+      '云联局域网快传 مفت، اوپن سورس ہے اور اس میں کوئی اشتہارات نہیں ہیں۔ اگر آپ کو ایپ پسند ہے، تو آپ عطیہ کے ذریعے ترقی کی حمایت کر سکتے ہیں۔';
   @override
   String donate({required Object amount}) => 'عطیہ کریں ${amount}';
   @override
@@ -659,7 +659,7 @@ class _Translations$tray$ur extends Translations$tray$en {
   @override
   String get open => _root.general.open;
   @override
-  String get close => 'چھوڑو 云联局域网快传 V1.0';
+  String get close => 'چھوڑو 云联局域网快传';
   @override
   String get closeWindows => 'بند کریں';
 }
@@ -870,7 +870,7 @@ class _Translations$settingsTab$general$ur extends Translations$settingsTab$gene
   @override
   String get launchMinimized => 'آٹو سٹارٹ: سٹارٹ پوشیدہ';
   @override
-  String get showInContextMenu => 'سیاق و سباق کے مینو میں 云联局域网快传 V1.0 دکھائیں';
+  String get showInContextMenu => 'سیاق و سباق کے مینو میں 云联局域网快传 دکھائیں';
   @override
   String get animations => 'تحریکات';
 }
@@ -972,7 +972,7 @@ class _Translations$settingsTab$other$ur extends Translations$settingsTab$other$
   @override
   String get title => 'دیگر';
   @override
-  String get support => '云联局域网快传 V1.0 کی حمایت کریں';
+  String get support => '云联局域网快传 کی حمایت کریں';
   @override
   String get donate => 'عطیہ کریں';
   @override
@@ -1324,7 +1324,7 @@ class _Translations$dialogs$localNetworkUnauthorized$ur extends Translations$dia
   String get title => _root.dialogs.noPermission.title;
   @override
   String get description =>
-      'لوکل نیٹ ورک کا سکین کرنے کی اجازت کے بغیر 云联局域网快传 V1.0، دیگر ڈیوائسز تلاش نہیں کرسکتا ہے۔ براہ کرم ترتیبات میں اس اجازت کو منظور کریں۔';
+      'لوکل نیٹ ورک کا سکین کرنے کی اجازت کے بغیر 云联局域网快传، دیگر ڈیوائسز تلاش نہیں کرسکتا ہے۔ براہ کرم ترتیبات میں اس اجازت کو منظور کریں۔';
   @override
   String get gotoSettings => 'ترتیبات';
 }
@@ -1466,7 +1466,7 @@ class _Translations$dialogs$sendModeHelp$ur extends Translations$dialogs$sendMod
   @override
   String get multiple => 'اکثر متعدد ریسیورز کو فائل بھیجتا ہے۔ سلیکشن ختم نہیں ہوگا۔';
   @override
-  String get link => '云联局域网快传 V1.0 نصب نہیں ہونے والے رسیورز منتخب شدہ فائلز کو لنک اپنے براؤزر میں کھولنے سے ڈاؤن لوڈ کر سکتے ہیں۔';
+  String get link => '云联局域网快传 نصب نہیں ہونے والے رسیورز منتخب شدہ فائلز کو لنک اپنے براؤزر میں کھولنے سے ڈاؤن لوڈ کر سکتے ہیں۔';
 }
 
 // Path: dialogs.zoom

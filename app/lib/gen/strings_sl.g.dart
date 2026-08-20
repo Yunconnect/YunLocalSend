@@ -40,7 +40,7 @@ class TranslationsSl extends Translations with BaseTranslations<AppLocale, Trans
 
   // Translations
   @override
-  String get appName => '云联局域网快传 V1.0';
+  String get appName => '云联局域网快传';
   @override
   late final _Translations$general$sl general = _Translations$general$sl._(_root);
   @override
@@ -291,7 +291,7 @@ class _Translations$networkInterfacesPage$sl extends Translations$networkInterfa
   String get title => 'Omrežni vmesniki';
   @override
   String get info =>
-      '云联局域网快传 V1.0 privzeto uporablja vse razpoložljive omrežne vmesnike. Tukaj lahko izključite neželena omrežja. Za uveljavitev sprememb morate znova zagnati strežnik.';
+      '云联局域网快传 privzeto uporablja vse razpoložljive omrežne vmesnike. Tukaj lahko izključite neželena omrežja. Za uveljavitev sprememb morate znova zagnati strežnik.';
   @override
   String get preview => 'Predogled';
   @override
@@ -416,7 +416,7 @@ class _Translations$receiveOptionsPage$sl extends Translations$receiveOptionsPag
   @override
   String get destination => _root.settingsTab.receive.destination;
   @override
-  String get appDirectory => '(mapa 云联局域网快传 V1.0)';
+  String get appDirectory => '(mapa 云联局域网快传)';
   @override
   String get saveToGallery => _root.settingsTab.receive.saveToGallery;
   @override
@@ -495,7 +495,7 @@ class _Translations$webSharePage$sl extends Translations$webSharePage$en {
   @override
   String pinHint({required Object pin}) => 'PIN je "${pin}"';
   @override
-  String get encryptionHint => '云联局域网快传 V1.0 uporablja samopodpisano potrdilo. Sprejeti ga morate v svojem brskalniku.';
+  String get encryptionHint => '云联局域网快传 uporablja samopodpisano potrdilo. Sprejeti ga morate v svojem brskalniku.';
   @override
   String pendingRequests({required Object n}) => 'Čakajoče zahteve: ${n}';
 }
@@ -519,10 +519,10 @@ class _Translations$aboutPage$sl extends Translations$aboutPage$en {
 
   // Translations
   @override
-  String get title => 'O 云联局域网快传 V1.0';
+  String get title => 'O 云联局域网快传';
   @override
   List<String> get description => [
-    '云联局域网快传 V1.0 je brezplačna, odprtokodna aplikacija, ki vam omogoča varno deljenje datotek in sporočil z napravami v bližini prek lokalnega omrežja brez potrebe po internetni povezavi.',
+    '云联局域网快传 je brezplačna, odprtokodna aplikacija, ki vam omogoča varno deljenje datotek in sporočil z napravami v bližini prek lokalnega omrežja brez potrebe po internetni povezavi.',
   ];
   @override
   String get author => 'Avtor';
@@ -544,7 +544,7 @@ class _Translations$donationPage$sl extends Translations$donationPage$en {
   @override
   String get title => 'Doniraj';
   @override
-  String get info => '云联局域网快传 V1.0 je brezplačna, odprtokodna in brez oglasov. Če vam je aplikacija všeč, lahko podprete razvoj z donacijo.';
+  String get info => '云联局域网快传 je brezplačna, odprtokodna in brez oglasov. Če vam je aplikacija všeč, lahko podprete razvoj z donacijo.';
   @override
   String donate({required Object amount}) => 'Doniraj ${amount}';
   @override
@@ -743,7 +743,7 @@ class _Translations$tray$sl extends Translations$tray$en {
   @override
   String get open => _root.general.open;
   @override
-  String get close => 'Zapri 云联局域网快传 V1.0';
+  String get close => 'Zapri 云联局域网快传';
   @override
   String get closeWindows => 'Izhod';
 }
@@ -954,7 +954,7 @@ class _Translations$settingsTab$general$sl extends Translations$settingsTab$gene
   @override
   String get launchMinimized => 'Samodejni zagon: Začni skrito';
   @override
-  String get showInContextMenu => 'Prikaži 云联局域网快传 V1.0 v kontekstnem meniju';
+  String get showInContextMenu => 'Prikaži 云联局域网快传 v kontekstnem meniju';
   @override
   String get animations => 'Animacije';
 }
@@ -1056,7 +1056,7 @@ class _Translations$settingsTab$other$sl extends Translations$settingsTab$other$
   @override
   String get title => 'Drugo';
   @override
-  String get support => 'Podprite 云联局域网快传 V1.0';
+  String get support => 'Podprite 云联局域网快传';
   @override
   String get donate => 'Donirajte';
   @override
@@ -1407,7 +1407,7 @@ class _Translations$dialogs$localNetworkUnauthorized$sl extends Translations$dia
   String get title => _root.dialogs.noPermission.title;
   @override
   String get description =>
-      '云联局域网快传 V1.0 ne more najti drugih naprav brez dovoljenja za iskanje v lokalnem omrežju. Prosim, omogočite to dovoljenje v nastavitvah.';
+      '云联局域网快传 ne more najti drugih naprav brez dovoljenja za iskanje v lokalnem omrežju. Prosim, omogočite to dovoljenje v nastavitvah.';
   @override
   String get gotoSettings => 'Nastavitve';
 }
@@ -1549,7 +1549,7 @@ class _Translations$dialogs$sendModeHelp$sl extends Translations$dialogs$sendMod
   @override
   String get multiple => 'Pošlje datoteke več prejemnikom. Izbira po končanem prenosu ne bo izbrisana.';
   @override
-  String get link => 'Prejemniki, ki nimajo nameščenega 云联局域网快传 V1.0, lahko prenesejo izbrane datoteke z odpiranjem povezave v brskalniku.';
+  String get link => 'Prejemniki, ki nimajo nameščenega 云联局域网快传, lahko prenesejo izbrane datoteke z odpiranjem povezave v brskalniku.';
 }
 
 // Path: dialogs.zoom

@@ -7,7 +7,7 @@
     -->
     <uses-permission android:name="android.permission.INTERNET" />
     <application
-        android:label="云联局域网快传 V1.0 调试版"
+        android:label="云联局域网快传 调试版"
         tools:ignore="MissingApplicationIcon"
         tools:replace="android:label" />
 </manifest>

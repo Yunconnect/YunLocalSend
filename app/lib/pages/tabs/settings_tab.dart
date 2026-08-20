@@ -4,7 +4,6 @@ import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:yun_lan_transfer/config/theme.dart';
 import 'package:yun_lan_transfer/gen/strings.g.dart';
-import 'package:yun_lan_transfer/model/persistence/color_mode.dart';
 import 'package:yun_lan_transfer/pages/about/about_page.dart';
 import 'package:yun_lan_transfer/pages/changelog_page.dart';
 import 'package:yun_lan_transfer/pages/settings/network_interfaces_page.dart';
@@ -18,7 +17,6 @@ import 'package:yun_lan_transfer/util/i18n.dart';
 import 'package:yun_lan_transfer/util/native/macos_channel.dart';
 import 'package:yun_lan_transfer/util/native/pick_directory_path.dart';
 import 'package:yun_lan_transfer/util/native/platform_check.dart';
-import 'package:yun_lan_transfer/widget/custom_dropdown_button.dart';
 import 'package:yun_lan_transfer/widget/dialogs/encryption_disabled_notice.dart';
 import 'package:yun_lan_transfer/widget/dialogs/pin_dialog.dart';
 import 'package:yun_lan_transfer/widget/dialogs/quick_save_from_favorites_notice.dart';
@@ -54,34 +52,7 @@ class SettingsTab extends StatelessWidget {
             _SettingsSection(
               title: t.settingsTab.general.title,
               children: [
-                _SettingsEntry(
-                  label: t.settingsTab.general.brightness,
-                  child: CustomDropdownButton<ThemeMode>(
-                    value: vm.settings.theme,
-                    items: vm.themeModes.map((theme) {
-                      return DropdownMenuItem(
-                        value: theme,
-                        alignment: Alignment.center,
-                        child: Text(theme.humanName),
-                      );
-                    }).toList(),
-                    onChanged: (theme) => vm.onChangeTheme(context, theme),
-                  ),
-                ),
-                _SettingsEntry(
-                  label: t.settingsTab.general.color,
-                  child: CustomDropdownButton<ColorMode>(
-                    value: vm.settings.colorMode,
-                    items: vm.colorModes.map((colorMode) {
-                      return DropdownMenuItem(
-                        value: colorMode,
-                        alignment: Alignment.center,
-                        child: Text(colorMode.humanName, overflow: TextOverflow.ellipsis),
-                      );
-                    }).toList(),
-                    onChanged: (colorMode) => vm.onChangeColorMode(context, colorMode),
-                  ),
-                ),
+                // 云联局域网快传固定使用蓝白主题，避免不同平台跟随系统颜色产生视觉差异。
                 _ButtonEntry(
                   label: t.settingsTab.general.language,
                   buttonLabel: vm.settings.locale?.getLocaleName() ?? t.settingsTab.general.languageOptions.system,
@@ -727,30 +698,5 @@ class _SettingsSection extends StatelessWidget {
         ),
       ),
     );
-  }
-}
-
-extension on ThemeMode {
-  String get humanName {
-    switch (this) {
-      case ThemeMode.system:
-        return t.settingsTab.general.brightnessOptions.system;
-      case ThemeMode.light:
-        return t.settingsTab.general.brightnessOptions.light;
-      case ThemeMode.dark:
-        return t.settingsTab.general.brightnessOptions.dark;
-    }
-  }
-}
-
-extension on ColorMode {
-  String get humanName {
-    return switch (this) {
-      ColorMode.system => t.settingsTab.general.colorOptions.system,
-      ColorMode.localsend => t.appName,
-      ColorMode.oled => t.settingsTab.general.colorOptions.oled,
-      ColorMode.yaru => 'Yaru',
-      ColorMode.custom => t.settingsTab.general.colorOptions.custom,
-    };
   }
 }

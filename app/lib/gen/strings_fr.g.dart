@@ -40,7 +40,7 @@ class TranslationsFr extends Translations with BaseTranslations<AppLocale, Trans
 
   // Translations
   @override
-  String get appName => '云联局域网快传 V1.0';
+  String get appName => '云联局域网快传';
   @override
   late final _Translations$general$fr general = _Translations$general$fr._(_root);
   @override
@@ -290,7 +290,7 @@ class _Translations$networkInterfacesPage$fr extends Translations$networkInterfa
   String get title => 'Interfaces réseau';
   @override
   String get info =>
-      'Par défaut, 云联局域网快传 V1.0 utilise toutes les interfaces réseau disponibles. Vous pouvez exclure les réseaux indésirables ici. Vous aurez besoin de redémarrer le serveur pour appliquer les changements.';
+      'Par défaut, 云联局域网快传 utilise toutes les interfaces réseau disponibles. Vous pouvez exclure les réseaux indésirables ici. Vous aurez besoin de redémarrer le serveur pour appliquer les changements.';
   @override
   String get preview => 'Aperçu';
   @override
@@ -415,7 +415,7 @@ class _Translations$receiveOptionsPage$fr extends Translations$receiveOptionsPag
   @override
   String get destination => _root.settingsTab.receive.destination;
   @override
-  String get appDirectory => '(dossier 云联局域网快传 V1.0)';
+  String get appDirectory => '(dossier 云联局域网快传)';
   @override
   String get saveToGallery => _root.settingsTab.receive.saveToGallery;
   @override
@@ -494,7 +494,7 @@ class _Translations$webSharePage$fr extends Translations$webSharePage$en {
   @override
   String pinHint({required Object pin}) => 'Le code PIN est "${pin}"';
   @override
-  String get encryptionHint => '云联局域网快传 V1.0 utilise un certificat auto-signé. Vous devez l\'accepter dans le navigateur.';
+  String get encryptionHint => '云联局域网快传 utilise un certificat auto-signé. Vous devez l\'accepter dans le navigateur.';
   @override
   String pendingRequests({required Object n}) => 'Requêtes en attente : ${n}';
 }
@@ -518,10 +518,10 @@ class _Translations$aboutPage$fr extends Translations$aboutPage$en {
 
   // Translations
   @override
-  String get title => 'À propos de 云联局域网快传 V1.0';
+  String get title => 'À propos de 云联局域网快传';
   @override
   List<String> get description => [
-    '云联局域网快传 V1.0 est un logiciel gratuit et open-source qui vous permet de partager de manière sécurisée des fichiers et des messages avec d\'autres appareils connectés à votre réseau local. Une connexion à internet n\'est pas requise.',
+    '云联局域网快传 est un logiciel gratuit et open-source qui vous permet de partager de manière sécurisée des fichiers et des messages avec d\'autres appareils connectés à votre réseau local. Une connexion à internet n\'est pas requise.',
   ];
   @override
   String get author => 'Auteur';
@@ -544,7 +544,7 @@ class _Translations$donationPage$fr extends Translations$donationPage$en {
   String get title => 'Faire une donation';
   @override
   String get info =>
-      '云联局域网快传 V1.0 est gratuit, open-source et sans aucune pub. Si vous aimez ce logiciel, vous pouvez faire un don pour soutenir son développement.';
+      '云联局域网快传 est gratuit, open-source et sans aucune pub. Si vous aimez ce logiciel, vous pouvez faire un don pour soutenir son développement.';
   @override
   String donate({required Object amount}) => 'Donner ${amount}';
   @override
@@ -660,7 +660,7 @@ class _Translations$tray$fr extends Translations$tray$en {
   @override
   String get open => _root.general.open;
   @override
-  String get close => 'Quitter 云联局域网快传 V1.0';
+  String get close => 'Quitter 云联局域网快传';
   @override
   String get closeWindows => 'Fermer';
 }
@@ -867,11 +867,11 @@ class _Translations$settingsTab$general$fr extends Translations$settingsTab$gene
   @override
   String get minimizeToTray => 'Réduire dans la barre des tâches à la fermeture';
   @override
-  String get launchAtStartup => 'Lancer 云联局域网快传 V1.0 à la connexion de l\'utilisateur';
+  String get launchAtStartup => 'Lancer 云联局域网快传 à la connexion de l\'utilisateur';
   @override
-  String get launchMinimized => 'Minimiser 云联局域网快传 V1.0 lors du lancement';
+  String get launchMinimized => 'Minimiser 云联局域网快传 lors du lancement';
   @override
-  String get showInContextMenu => 'Afficher 云联局域网快传 V1.0 dans le menu contextuel';
+  String get showInContextMenu => 'Afficher 云联局域网快传 dans le menu contextuel';
   @override
   String get animations => 'Animations';
 }
@@ -973,7 +973,7 @@ class _Translations$settingsTab$other$fr extends Translations$settingsTab$other$
   @override
   String get title => 'Autre';
   @override
-  String get support => 'Soutenir 云联局域网快传 V1.0';
+  String get support => 'Soutenir 云联局域网快传';
   @override
   String get donate => 'Faire une donation';
   @override
@@ -1325,7 +1325,7 @@ class _Translations$dialogs$localNetworkUnauthorized$fr extends Translations$dia
   String get title => _root.dialogs.noPermission.title;
   @override
   String get description =>
-      '云联局域网快传 V1.0 ne peut pas trouver d\'autres appareils sans la permission de scanner votre réseau local. Veuillez donner cette permission à 云联局域网快传 V1.0 dans les paramètres système.';
+      '云联局域网快传 ne peut pas trouver d\'autres appareils sans la permission de scanner votre réseau local. Veuillez donner cette permission à 云联局域网快传 dans les paramètres système.';
   @override
   String get gotoSettings => 'Paramètres';
 }
@@ -1364,7 +1364,7 @@ class _Translations$dialogs$noPermission$fr extends Translations$dialogs$noPermi
 
   // Translations
   @override
-  String get title => '云联局域网快传 V1.0 n\'a pas la permission';
+  String get title => '云联局域网快传 n\'a pas la permission';
   @override
   String get content => 'Vous n\'avez pas accordé les autorisations nécessaires. Veuillez les accorder dans les paramètres systèmes.';
 }
@@ -1469,7 +1469,7 @@ class _Translations$dialogs$sendModeHelp$fr extends Translations$dialogs$sendMod
   String get multiple => 'Envoyer des fichiers à plusieurs destinataires. La sélection ne sera pas effacée.';
   @override
   String get link =>
-      'Les destinataires n\'ayant pas 云联局域网快传 V1.0 installé peuvent télécharger les fichiers sélectionnés en ouvrant le lien dans leur navigateur.';
+      'Les destinataires n\'ayant pas 云联局域网快传 installé peuvent télécharger les fichiers sélectionnés en ouvrant le lien dans leur navigateur.';
 }
 
 // Path: dialogs.zoom

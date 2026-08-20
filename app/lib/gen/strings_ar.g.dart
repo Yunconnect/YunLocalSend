@@ -40,7 +40,7 @@ class TranslationsAr extends Translations with BaseTranslations<AppLocale, Trans
 
   // Translations
   @override
-  String get appName => '云联局域网快传 V1.0';
+  String get appName => '云联局域网快传';
   @override
   late final _Translations$general$ar general = _Translations$general$ar._(_root);
   @override
@@ -291,7 +291,7 @@ class _Translations$networkInterfacesPage$ar extends Translations$networkInterfa
   String get title => 'واجهات الشبكة';
   @override
   String get info =>
-      'بشكل افتراضي، يستخدم 云联局域网快传 V1.0 جميع واجهات الشبكة المتاحة. يمكنك استبعاد الشبكات غير المرغوب فيها هنا. تحتاج إلى إعادة تشغيل الخادم لتطبيق التغييرات.';
+      'بشكل افتراضي، يستخدم 云联局域网快传 جميع واجهات الشبكة المتاحة. يمكنك استبعاد الشبكات غير المرغوب فيها هنا. تحتاج إلى إعادة تشغيل الخادم لتطبيق التغييرات.';
   @override
   String get preview => 'معاينة';
   @override
@@ -416,7 +416,7 @@ class _Translations$receiveOptionsPage$ar extends Translations$receiveOptionsPag
   @override
   String get destination => _root.settingsTab.receive.destination;
   @override
-  String get appDirectory => '(مجلد 云联局域网快传 V1.0)';
+  String get appDirectory => '(مجلد 云联局域网快传)';
   @override
   String get saveToGallery => _root.settingsTab.receive.saveToGallery;
   @override
@@ -495,7 +495,7 @@ class _Translations$webSharePage$ar extends Translations$webSharePage$en {
   @override
   String pinHint({required Object pin}) => 'رمز PIN هو "${pin}"';
   @override
-  String get encryptionHint => 'يستخدم تطبيق 云联局域网快传 V1.0 شهادة موقع ذاتية التوقيع. يجب عليك قبولها في المتصفح.';
+  String get encryptionHint => 'يستخدم تطبيق 云联局域网快传 شهادة موقع ذاتية التوقيع. يجب عليك قبولها في المتصفح.';
   @override
   String pendingRequests({required Object n}) => 'الطلبات المعلقة: ${n}';
 }
@@ -519,10 +519,10 @@ class _Translations$aboutPage$ar extends Translations$aboutPage$en {
 
   // Translations
   @override
-  String get title => 'عن 云联局域网快传 V1.0';
+  String get title => 'عن 云联局域网快传';
   @override
   List<String> get description => [
-    '云联局域网快传 V1.0 هو تطبيق مجاني مفتوح المصدر يسمح لك بمشاركة الملفات والرسائل بشكل آمن مع الأجهزة القريبة عبر شبكتك المحلية دون الحاجة إلى اتصال بالإنترنت.',
+    '云联局域网快传 هو تطبيق مجاني مفتوح المصدر يسمح لك بمشاركة الملفات والرسائل بشكل آمن مع الأجهزة القريبة عبر شبكتك المحلية دون الحاجة إلى اتصال بالإنترنت.',
   ];
   @override
   String get author => 'المؤلف';
@@ -544,7 +544,7 @@ class _Translations$donationPage$ar extends Translations$donationPage$en {
   @override
   String get title => 'تبرّع';
   @override
-  String get info => '云联局域网快传 V1.0 مجاني ومفتوح المصدر وبدون أي إعلانات. إذا أعجبك التطبيق، يمكنك دعم التطوير بالتبرع.';
+  String get info => '云联局域网快传 مجاني ومفتوح المصدر وبدون أي إعلانات. إذا أعجبك التطبيق، يمكنك دعم التطوير بالتبرع.';
   @override
   String donate({required Object amount}) => 'تبرّع ${amount}';
   @override
@@ -743,7 +743,7 @@ class _Translations$tray$ar extends Translations$tray$en {
   @override
   String get open => _root.general.open;
   @override
-  String get close => 'أنهِ 云联局域网快传 V1.0';
+  String get close => 'أنهِ 云联局域网快传';
   @override
   String get closeWindows => 'اخرج';
 }
@@ -954,7 +954,7 @@ class _Translations$settingsTab$general$ar extends Translations$settingsTab$gene
   @override
   String get launchMinimized => 'تشغيل تلقائي: ابدأ مخفيًا';
   @override
-  String get showInContextMenu => 'إظهار 云联局域网快传 V1.0 في قائمة السياق';
+  String get showInContextMenu => 'إظهار 云联局域网快传 في قائمة السياق';
   @override
   String get animations => 'الرسوم المتحركة';
 }
@@ -1056,7 +1056,7 @@ class _Translations$settingsTab$other$ar extends Translations$settingsTab$other$
   @override
   String get title => 'أخرى';
   @override
-  String get support => 'دعم 云联局域网快传 V1.0';
+  String get support => 'دعم 云联局域网快传';
   @override
   String get donate => 'تبرّع';
   @override
@@ -1407,7 +1407,7 @@ class _Translations$dialogs$localNetworkUnauthorized$ar extends Translations$dia
   @override
   String get title => _root.dialogs.noPermission.title;
   @override
-  String get description => 'لا يمكن ل 云联局域网快传 V1.0 العثور على الأجهزة الأخرى بدون الإذن بفحص الشبكة المحلية. يُرجى منح هذا الإذن في الإعدادات.';
+  String get description => 'لا يمكن ل 云联局域网快传 العثور على الأجهزة الأخرى بدون الإذن بفحص الشبكة المحلية. يُرجى منح هذا الإذن في الإعدادات.';
   @override
   String get gotoSettings => 'الإعدادات';
 }
@@ -1549,7 +1549,7 @@ class _Translations$dialogs$sendModeHelp$ar extends Translations$dialogs$sendMod
   @override
   String get multiple => 'يرسل الملفات إلى عدة مستلمين. لن يتم مسح التحديد بعد الانتهاء من نقل الملفات.';
   @override
-  String get link => 'يمكن للمستلمين الذين لا يحتوون على 云联局域网快传 V1.0 تنزيل الملفات المحددة عن طريق فتح الرابط في متصفحهم.';
+  String get link => 'يمكن للمستلمين الذين لا يحتوون على 云联局域网快传 تنزيل الملفات المحددة عن طريق فتح الرابط في متصفحهم.';
 }
 
 // Path: dialogs.zoom

@@ -40,7 +40,7 @@ class TranslationsMs extends Translations with BaseTranslations<AppLocale, Trans
 
   // Translations
   @override
-  String get appName => '云联局域网快传 V1.0';
+  String get appName => '云联局域网快传';
   @override
   late final _Translations$general$ms general = _Translations$general$ms._(_root);
   @override
@@ -291,7 +291,7 @@ class _Translations$networkInterfacesPage$ms extends Translations$networkInterfa
   String get title => 'Antara Muka Rangkaian';
   @override
   String get info =>
-      'Secara lalai, 云联局域网快传 V1.0 menggunakan semua antara muka rangkaian tersedia. Anda boleh memulaukan rangkaian yang tidak diingini. Anda perlu mula semula pelayan untuk mengenakan perubahan.';
+      'Secara lalai, 云联局域网快传 menggunakan semua antara muka rangkaian tersedia. Anda boleh memulaukan rangkaian yang tidak diingini. Anda perlu mula semula pelayan untuk mengenakan perubahan.';
   @override
   String get preview => 'Pratonton';
   @override
@@ -416,7 +416,7 @@ class _Translations$receiveOptionsPage$ms extends Translations$receiveOptionsPag
   @override
   String get destination => _root.settingsTab.receive.destination;
   @override
-  String get appDirectory => '(folder 云联局域网快传 V1.0)';
+  String get appDirectory => '(folder 云联局域网快传)';
   @override
   String get saveToGallery => _root.settingsTab.receive.saveToGallery;
   @override
@@ -495,7 +495,7 @@ class _Translations$webSharePage$ms extends Translations$webSharePage$en {
   @override
   String pinHint({required Object pin}) => 'PIN ialah "${pin}"';
   @override
-  String get encryptionHint => '云联局域网快传 V1.0 menggunakan sijil yang ditandatangani sendiri. Anda perlu menerimanya di pelayar anda.';
+  String get encryptionHint => '云联局域网快传 menggunakan sijil yang ditandatangani sendiri. Anda perlu menerimanya di pelayar anda.';
   @override
   String pendingRequests({required Object n}) => 'Permintaan yang masih belum selesai: ${n}';
 }
@@ -519,10 +519,10 @@ class _Translations$aboutPage$ms extends Translations$aboutPage$en {
 
   // Translations
   @override
-  String get title => 'Tentang 云联局域网快传 V1.0';
+  String get title => 'Tentang 云联局域网快传';
   @override
   List<String> get description => [
-    '云联局域网快传 V1.0 adalah aplikasi percuma dan sumber terbuka yang membolehkan anda berkongsi fail dan mesej secara selamat dan terjamin dengan peranti berdekatan yang berada dalam rangkaian tempatan anda tanpa memerlukan sebarang sambungan internet.',
+    '云联局域网快传 adalah aplikasi percuma dan sumber terbuka yang membolehkan anda berkongsi fail dan mesej secara selamat dan terjamin dengan peranti berdekatan yang berada dalam rangkaian tempatan anda tanpa memerlukan sebarang sambungan internet.',
   ];
   @override
   String get author => 'Pengarang';
@@ -545,7 +545,7 @@ class _Translations$donationPage$ms extends Translations$donationPage$en {
   String get title => 'Derma';
   @override
   String get info =>
-      '云联局域网快传 V1.0 adalah percuma, sumber terbuka dan tanpa iklan. Jika anda menyukai aplikasi ini, anda boleh menyokong pembangunannya dengan derma.';
+      '云联局域网快传 adalah percuma, sumber terbuka dan tanpa iklan. Jika anda menyukai aplikasi ini, anda boleh menyokong pembangunannya dengan derma.';
   @override
   String donate({required Object amount}) => 'Derma ${amount}';
   @override
@@ -741,7 +741,7 @@ class _Translations$tray$ms extends Translations$tray$en {
   @override
   String get open => _root.general.open;
   @override
-  String get close => 'Keluar 云联局域网快传 V1.0';
+  String get close => 'Keluar 云联局域网快传';
   @override
   String get closeWindows => 'Keluar';
 }
@@ -952,7 +952,7 @@ class _Translations$settingsTab$general$ms extends Translations$settingsTab$gene
   @override
   String get launchMinimized => 'Mula automatik: Mula tersembunyi';
   @override
-  String get showInContextMenu => 'Tunjukkan 云联局域网快传 V1.0 dalam menu konteks';
+  String get showInContextMenu => 'Tunjukkan 云联局域网快传 dalam menu konteks';
   @override
   String get animations => 'Animasi';
 }
@@ -1054,7 +1054,7 @@ class _Translations$settingsTab$other$ms extends Translations$settingsTab$other$
   @override
   String get title => 'Lain-lain';
   @override
-  String get support => 'Sokong 云联局域网快传 V1.0';
+  String get support => 'Sokong 云联局域网快传';
   @override
   String get donate => 'Derma';
   @override
@@ -1407,7 +1407,7 @@ class _Translations$dialogs$localNetworkUnauthorized$ms extends Translations$dia
   String get title => _root.dialogs.noPermission.title;
   @override
   String get description =>
-      '云联局域网快传 V1.0 tidak dapat mencari peranti lain tanpa mempunyai kebenaran untuk mengimbas rangkaian tempatan. Sila berikan kebenaran ini dalam tetapan.';
+      '云联局域网快传 tidak dapat mencari peranti lain tanpa mempunyai kebenaran untuk mengimbas rangkaian tempatan. Sila berikan kebenaran ini dalam tetapan.';
   @override
   String get gotoSettings => 'Tetapan';
 }
@@ -1551,7 +1551,7 @@ class _Translations$dialogs$sendModeHelp$ms extends Translations$dialogs$sendMod
   String get multiple => 'Menghantar fail kepada beberapa penerima. Pilihan tidak akan dibersihkan.';
   @override
   String get link =>
-      'Penerima yang tidak mempunyai 云联局域网快传 V1.0 dipasang boleh memuat turun fail yang dipilih dengan membuka pautan dalam pelayar mereka.';
+      'Penerima yang tidak mempunyai 云联局域网快传 dipasang boleh memuat turun fail yang dipilih dengan membuka pautan dalam pelayar mereka.';
 }
 
 // Path: dialogs.zoom
