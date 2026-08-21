@@ -5,7 +5,6 @@ import 'package:flutter/material.dart';
 import 'package:yun_lan_transfer/config/theme.dart';
 import 'package:yun_lan_transfer/gen/strings.g.dart';
 import 'package:yun_lan_transfer/pages/about/about_page.dart';
-import 'package:yun_lan_transfer/pages/changelog_page.dart';
 import 'package:yun_lan_transfer/pages/settings/network_interfaces_page.dart';
 import 'package:yun_lan_transfer/pages/tabs/settings_tab_controller.dart';
 import 'package:yun_lan_transfer/provider/network/server/server_provider.dart';
@@ -542,18 +541,6 @@ class SettingsTab extends StatelessWidget {
             Text(
               '© ${DateTime.now().year} 云联软件科技',
               textAlign: TextAlign.center,
-            ),
-            Center(
-              child: TextButton.icon(
-                style: TextButton.styleFrom(
-                  foregroundColor: Theme.of(context).colorScheme.onSurface,
-                ),
-                onPressed: () async {
-                  await context.push(() => const ChangelogPage());
-                },
-                icon: const Icon(Icons.history),
-                label: Text(t.changelogPage.title),
-              ),
             ),
             const SizedBox(height: 80),
           ],

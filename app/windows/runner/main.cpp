@@ -37,7 +37,7 @@ int APIENTRY wWinMain(_In_ HINSTANCE instance, _In_opt_ HINSTANCE prev,
   FlutterWindow window(project);
   Win32Window::Point origin(10, 10);
   Win32Window::Size size(500, 600);
-  if (!window.Create(L"云联局域网快传", origin, size)) {
+  if (!window.Create(L"云联局域网快传 - 异地互联专业供应商QQ:28272213", origin, size)) {
     return EXIT_FAILURE;
   }
   window.SetQuitOnClose(true);

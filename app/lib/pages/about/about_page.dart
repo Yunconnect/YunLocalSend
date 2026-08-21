@@ -22,7 +22,10 @@ class AboutPage extends StatelessWidget {
             textAlign: TextAlign.center,
           ),
           const SizedBox(height: 10),
-          Text(t.aboutPage.description.join('\n\n')),
+          const Text(
+            '云联软件科技-异地互联专业供应商QQ:28272213',
+            textAlign: TextAlign.center,
+          ),
           const SizedBox(height: 50),
         ],
       ),
